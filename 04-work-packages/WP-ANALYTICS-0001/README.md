@@ -1,6 +1,6 @@
 # WP-ANALYTICS-0001 — Thinx-Tank analytics deployment
 
-Status: implementing. Repository: jdlongmire/thinx-tank.
+Status: deployed and verified; human acceptance pending. Repository: jdlongmire/thinx-tank.
 Owner: thinx-003. Coordination record: jdlongmire/thinx-muse,
 04-work-packages/WP-ANALYTICS-0001-umami.
 
