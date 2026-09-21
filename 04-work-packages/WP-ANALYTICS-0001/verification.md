@@ -35,3 +35,13 @@ Limits: backups are local, with 30-day retention; no off-host copy is configured
 Host/network downtime causes collection gaps while the GitHub Pages blog stays
 available. Tailscale dashboard access was tested from this host, not JD's device.
 Verification is not a declaration of Principal Operator acceptance.
+
+## Weekly report addition — 2026-09-21
+
+Authority: JD requested a weekly statistics report to his Telegram DM.
+Implemented a Python reporter and persistent user-systemd timer for Mondays
+09:00 America/Chicago. Next scheduled send: 2026-09-28 09:00 CDT.
+Five unit tests pass, including DST and duplicate suppression. A labeled
+week-to-date test (4 pageviews / 1 visitor / 1 visit, with setup-traffic caveat)
+was accepted by Telegram for the configured DM, message ID 1857.
+The production timer is enabled; no ordinary weekly report was sent early.

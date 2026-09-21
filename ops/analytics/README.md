@@ -77,3 +77,33 @@ Stop only analytics-tunnel.service and analytics.service, and disable the backup
 timer if retiring the stack. Preserve the database volume and backups. Remove
 only this tailnet Serve mapping with `tailscale serve --https=13443 off`.
 Do not reset all Serve configuration or touch the console's existing tunnel.
+
+## Weekly Telegram report
+
+JD requested weekly reports to his Telegram DM on 2026-09-21.
+`analytics-weekly-report.timer` runs Mondays at 09:00 America/Chicago (DST-aware),
+starting September 28, 2026. It summarizes the completed Monday–Sunday calendar
+week: pageviews, visitors, visits, and prior-week comparisons once coverage permits.
+The first week discloses partial deployment-day coverage and verification visits.
+
+Runtime: `~/.local/lib/thinx-tank-analytics/weekly-report.py`; standard Python,
+no added packages. The report uses local Umami admin credentials and the existing
+bridge token in place, never copied into Git or logs. It sends only to JD's DM
+6996242753 through @thinxai_bot. No LAN access is required from thinx-muse.
+Install the report script alongside backup.sh and its service/timer in the user
+systemd directory; daemon-reload and enable/start the timer.
+
+Use `python3 ops/analytics/weekly-report.py` to preview without sending.
+`--test --send` delivers a labeled week-to-date test without consuming the weekly
+report. A test was accepted by Telegram on September 21 (message ID 1857).
+Five unit tests cover calendar weeks, DST, zero-baseline comparisons, coverage
+labels and already-delivered suppression. Private delivery receipts live in
+`~/.local/share/thinx-tank-analytics/reports/`. A file lock prevents overlapping
+runs; a successful receipt suppresses repeat weekly sends. Network ambiguity
+between delivery and receipt persistence can still cause a duplicate on retry.
+
+Persistent scheduling catches up after downtime with the latest completed week;
+it does not reconstruct every missed week. Failures retry at 15-minute intervals,
+up to three starts per two hours, and remain visible in the service journal.
+An API failure never becomes a false zero-traffic report. To disable delivery:
+`systemctl --user disable --now analytics-weekly-report.timer`.

@@ -1,0 +1,13 @@
+[Unit]
+Description=Weekly Thinx-Tank statistics to JD Telegram DM
+After=analytics.service network-online.target
+Wants=analytics.service network-online.target
+StartLimitIntervalSec=2h
+StartLimitBurst=3
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.local/lib/thinx-tank-analytics/weekly-report.py --send
+Restart=on-failure
+RestartSec=15min
+UMask=0077
+NoNewPrivileges=true
