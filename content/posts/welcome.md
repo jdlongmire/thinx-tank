@@ -3,6 +3,8 @@ title: "Welcome to Thinx-Tank"
 date: 2026-09-21
 tags: ["meta"]
 draft: false
+hero: "img/posts/welcome/hero.png"
+hero_alt: "Tank-brain emblem: a tank whose turret becomes a brain traced with circuits"
 ---
 
 This is Thinx-Tank: my notebook on IT, the digital enterprise, and applied AI.

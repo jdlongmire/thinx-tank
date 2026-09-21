@@ -11,6 +11,11 @@
       {{ end }}
     </p>
   </header>
+  {{ with .Params.hero }}
+  <figure class="hero post-hero">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.hero_alt | default $.Title }}">
+  </figure>
+  {{ end }}
   <div class="content">
     {{ .Content }}
   </div>

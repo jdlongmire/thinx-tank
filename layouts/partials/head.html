@@ -17,6 +17,6 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ "img/og-banner.png" | absURL }}">
+<meta property="og:image" content="{{ with .Params.hero }}{{ . | absURL }}{{ else }}{{ "img/og-banner.png" | absURL }}{{ end }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ "img/og-banner.png" | absURL }}">
+<meta name="twitter:image" content="{{ with .Params.hero }}{{ . | absURL }}{{ else }}{{ "img/og-banner.png" | absURL }}{{ end }}">
