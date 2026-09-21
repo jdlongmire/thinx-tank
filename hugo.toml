@@ -1,7 +1,6 @@
 baseURL = 'https://blog.thinxai.net/'
 languageCode = 'en-us'
 title = 'Thinx-Tank'
-theme = ''
 
 [params]
   tagline = 'Notes on IT, the digital enterprise, and applied AI.'
