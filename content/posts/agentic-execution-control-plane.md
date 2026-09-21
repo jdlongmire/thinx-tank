@@ -1,8 +1,8 @@
 ---
 title: "The Agentic Execution Control Plane"
-date: 2026-09-22
+date: 2026-09-21
 tags: ["ai-governance", "agents", "architecture"]
-draft: true
+draft: false
 description: "AI agents should never be treated as trusted production principals. The agentic execution control plane separates probabilistic reasoning from deterministic control: the agent proposes, QA critiques, the policy broker authorizes, the execution broker executes."
 hero: "img/posts/agentic-execution-control-plane/hero.png"
 hero_alt: "Pipeline infographic: Agent proposes, QA Agent critiques, Policy Broker authorizes, Execution Broker executes"

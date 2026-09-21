@@ -1,8 +1,8 @@
 ---
 title: "Harness Engineering: Why the Wrapper Matters More Than the Model"
-date: 2026-09-23
+date: 2026-09-21
 tags: ["agents", "engineering", "ai-governance"]
-draft: true
+draft: false
 description: "I run an AI agent with arbitrary shell access on my own machines. The only thing between intent and disaster is the harness. Notes on harness engineering from ThinxAI and the MxM governance framework: authority, honest boundaries, and the assurance kernel."
 hero: "img/posts/harness-engineering/hero.png"
 hero_alt: "Triangle infographic of the Principal Governance Triad: Principal Operator decides, Principal Assistant acts, Principal Advisor challenges"
