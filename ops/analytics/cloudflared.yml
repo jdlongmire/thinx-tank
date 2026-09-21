@@ -1,0 +1,9 @@
+tunnel: 659eb886-dcd8-4898-9852-9d70e3ce2b1f
+credentials-file: /home/thinxai/.cloudflared/659eb886-dcd8-4898-9852-9d70e3ce2b1f.json
+protocol: http2
+metrics: 127.0.0.1:19881
+ingress:
+  - hostname: analytics.thinxai.net
+    path: ^/(script\.js|api/send)$
+    service: http://127.0.0.1:19880
+  - service: http_status:404

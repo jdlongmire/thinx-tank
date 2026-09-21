@@ -1,0 +1,11 @@
+[Unit]
+Description=Thinx-Tank public analytics collection tunnel
+After=analytics.service network-online.target
+Wants=analytics.service
+[Service]
+ExecStart=/usr/bin/cloudflared tunnel --config %h/.config/thinx/analytics/cloudflared.yml run
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+[Install]
+WantedBy=default.target

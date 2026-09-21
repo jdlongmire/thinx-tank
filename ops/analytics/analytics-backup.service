@@ -1,0 +1,7 @@
+[Unit]
+Description=Back up Thinx-Tank analytics PostgreSQL
+Requires=analytics-db.service
+After=analytics-db.service
+[Service]
+Type=oneshot
+ExecStart=%h/.local/lib/thinx-tank-analytics/backup.sh

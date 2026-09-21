@@ -45,3 +45,9 @@
 }
 </script>
 {{ end }}
+
+{{ if hugo.IsProduction }}
+{{ with .Site.Params.analytics }}
+<script defer src="{{ .scriptURL }}" data-website-id="{{ .websiteID }}" data-domains="blog.thinxai.net" data-do-not-track="true"></script>
+{{ end }}
+{{ end }}

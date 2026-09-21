@@ -1,0 +1,22 @@
+[Unit]
+Description=Thinx-Tank Umami analytics
+Requires=analytics-db.service
+After=analytics-db.service
+[Container]
+Image=ghcr.io/umami-software/umami@sha256:6cd9d24a836fac5c226c3c90cb25141d4560b7270b7827f393ccf09bf3f83b18
+ContainerName=thinx-tank-analytics
+Network=analytics.network
+PublishPort=127.0.0.1:19880:3000
+EnvironmentFile=%h/.config/thinx/analytics/app.env
+Environment=DISABLE_TELEMETRY=1
+Environment=TRACKER_SCRIPT_NAME=script.js
+HealthCmd=curl --fail http://localhost:3000/api/heartbeat
+HealthInterval=30s
+HealthStartPeriod=90s
+[Service]
+Restart=always
+TimeoutStartSec=180
+MemoryMax=1536M
+CPUQuota=150%
+[Install]
+WantedBy=default.target

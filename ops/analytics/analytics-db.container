@@ -1,0 +1,18 @@
+[Unit]
+Description=Thinx-Tank analytics PostgreSQL
+[Container]
+Image=docker.io/library/postgres@sha256:aa90e97ee862e558111d34cfb8b2c4bec768c2b039fb791341686928560263b3
+ContainerName=thinx-tank-analytics-db
+Network=analytics.network
+NetworkAlias=db
+Volume=analytics-db.volume:/var/lib/postgresql/data
+EnvironmentFile=%h/.config/thinx/analytics/db.env
+HealthCmd=pg_isready -U umami -d umami
+HealthInterval=30s
+[Service]
+Restart=always
+TimeoutStartSec=180
+MemoryMax=768M
+CPUQuota=100%
+[Install]
+WantedBy=default.target
