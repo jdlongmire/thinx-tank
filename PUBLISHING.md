@@ -19,8 +19,11 @@ infographic. No exceptions. The visual is part of the article, not decoration.
 
 1. Hero graphic or infographic present, mobile-checked, alt text written.
 2. AI-tells pass completed (see below). No exceptions.
-3. Tags set (2-4, lowercase).
-4. Proofread once on a phone.
+3. `description` written: 1-2 sentences in front matter. This becomes the
+   search-result snippet and the social preview text; never ship a post on
+   the site-wide default.
+4. Tags set (2-4, lowercase).
+5. Proofread once on a phone.
 
 ## AI-tells review
 

@@ -20,3 +20,28 @@
 <meta property="og:image" content="{{ with .Params.hero }}{{ . | absURL }}{{ else }}{{ "img/og-banner.png" | absURL }}{{ end }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ with .Params.hero }}{{ . | absURL }}{{ else }}{{ "img/og-banner.png" | absURL }}{{ end }}">
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ .Site.Params.description | jsonify }}{{ end }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }{{ with .Params.hero }},
+  "image": {{ . | absURL | jsonify }}{{ end }}
+}
+</script>
+{{ end }}
