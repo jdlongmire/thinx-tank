@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ .Site.BaseURL }}">
+      <span class="brand-mark" aria-hidden="true">&#9646;</span>
+      {{ .Site.Title }}
+    </a>
+    <nav>
+      <a href="{{ "posts/" | relLangURL }}">Posts</a>
+      <a href="{{ "tags/" | relLangURL }}">Tags</a>
+      {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+    </nav>
+  </div>
+</header>

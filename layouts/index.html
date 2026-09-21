@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="intro">
+  <p class="tagline">{{ .Site.Params.tagline }}</p>
+</section>
+
+<section>
+  <h2>Recent posts</h2>
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ if $posts }}
+  <ul class="post-list">
+    {{ range $posts.ByDate.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.tags }}
+      <span class="tags">
+        {{ range . }}<a class="tag" href="{{ "tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+      </span>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p>No posts yet.</p>
+  {{ end }}
+</section>
+{{ end }}

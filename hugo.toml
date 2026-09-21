@@ -1,0 +1,20 @@
+baseURL = 'https://blog.thinxai.net/'
+languageCode = 'en-us'
+title = 'Thinx-Tank'
+theme = ''
+
+[params]
+  tagline = 'Notes on IT, the digital enterprise, and applied AI.'
+  author = 'JD Longmire'
+  description = 'Thinx-Tank: notes on IT, the digital enterprise, and applied AI, written by a working enterprise architect.'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
