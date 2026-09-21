@@ -2,7 +2,7 @@
 title: "Introducing Thinx-Tank"
 date: 2026-09-21
 tags: ["meta"]
-draft: true
+draft: false
 hero: "img/posts/introducing-thinx-tank/hero.png"
 hero_alt: "Thinx-Tank hero: brass hex-T badge over the words Thinx-Tank, with IT, Enterprise, and AI pillars"
 ---
