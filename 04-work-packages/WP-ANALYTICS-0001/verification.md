@@ -45,3 +45,14 @@ Five unit tests pass, including DST and duplicate suppression. A labeled
 week-to-date test (4 pageviews / 1 visitor / 1 visit, with setup-traffic caveat)
 was accepted by Telegram for the configured DM, message ID 1857.
 The production timer is enabled; no ordinary weekly report was sent early.
+
+## GitHub digest addition — 2026-09-22
+
+Authority: JD explicitly requested Monday approximately 06:00 America/Chicago
+generation and main-branch publication per thinx-muse's stats-digest-spec.md.
+Four digest tests and all five existing Telegram report tests pass. The
+installed Umami API rejects type=url with 400; type=path is verified against
+Umami 3.4 source and live nonempty results. Daily totals are checked against
+weekly pageviews. The initial completed-week artifact covers September 14–20
+and explicitly identifies pre-tracking lack of coverage. The first scheduled
+run is September 28 at 06:00 CDT; Telegram remains at 09:00 CDT.

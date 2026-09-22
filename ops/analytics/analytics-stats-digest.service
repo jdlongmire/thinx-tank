@@ -1,0 +1,15 @@
+[Unit]
+Description=Publish weekly Thinx-Tank stats digest to GitHub
+After=analytics.service network-online.target
+Wants=analytics.service network-online.target
+StartLimitIntervalSec=2h
+StartLimitBurst=3
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.local/lib/thinx-tank-analytics/stats-digest.py --publish
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Restart=on-failure
+RestartSec=15min
+TimeoutStartSec=10min
+UMask=0077
+NoNewPrivileges=true

@@ -107,3 +107,43 @@ it does not reconstruct every missed week. Failures retry at 15-minute intervals
 up to three starts per two hours, and remain visible in the service journal.
 An API failure never becomes a false zero-traffic report. To disable delivery:
 `systemctl --user disable --now analytics-weekly-report.timer`.
+
+## GitHub weekly stats digest
+
+Requested by JD on 2026-09-22 per thinx-muse's
+`04-work-packages/WP-ANALYTICS-0001-umami/stats-digest-spec.md`.
+`analytics-stats-digest.timer` runs Mondays at 06:00 America/Chicago,
+independently of the existing 09:00 Telegram report. It publishes the previous
+Monday–Sunday's totals, top ten pages/referrers, and seven daily pageview rows to
+`ops/analytics/stats-weekly.md` on this repository's main branch.
+
+Format version 1 has fixed metadata fields and four fixed section/table schemas.
+Timestamps include their timezone offset. Counts are unformatted numbers.
+Missing pre-deployment coverage is explicit. Umami 3.4 uses `type=path` instead
+of the spec's obsolete `type=url`; daily values use seven stats queries with
+Chicago calendar boundaries and inclusive end milliseconds. Daily pageviews must
+reconcile to the whole-week total. Visitors are the weekly unique total, never
+a sum of daily uniques.
+
+Install stats-digest.py beside weekly-report.py in
+`~/.local/lib/thinx-tank-analytics/`, and install the corresponding service/timer
+in `~/.config/systemd/user/`. Enable with daemon-reload and
+`systemctl --user enable --now analytics-stats-digest.timer`.
+Preview: `python3 ops/analytics/stats-digest.py`.
+Generate and publish now: `systemctl --user start analytics-stats-digest.service`.
+
+The generator reads credentials locally, fetches and validates every response
+before editing anything, then uses a fresh temporary main checkout to overwrite
+only the digest. It commits with HCAE attribution, performs a normal fast-forward
+push (never force), and verifies the remote SHA. Concurrent main changes cause a
+safe failure and later fresh retry. A failed generation does not update the
+previous digest or its timestamp; readers must check week and generated time.
+The existing host GitHub credential helper provides authorized Git access.
+Credentials and raw API responses are never written to the digest.
+
+A lock prevents overlapping digest runs. The persistent timer catches up with
+the latest completed week after downtime; up to three starts in two hours retry
+failures at 15-minute intervals. Check `journalctl --user -u
+analytics-stats-digest.service` and the timer's next-run timestamp for health.
+The four digest tests cover stable tables/escaping, inconsistent daily totals,
+API failure preventing publication, and top-ten validation/sorting.
