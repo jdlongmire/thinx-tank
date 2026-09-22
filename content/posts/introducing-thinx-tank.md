@@ -1,6 +1,6 @@
 ---
 title: "Introducing Thinx-Tank"
-date: 2026-09-21
+date: 2026-09-20
 tags: ["meta"]
 draft: false
 description: "Introducing Thinx-Tank: notes on IT, the digital enterprise, and applied AI, from a practitioner who has spent a career making technology work inside real organizations."

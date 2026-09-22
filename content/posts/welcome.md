@@ -2,7 +2,7 @@
 title: "Welcome to Thinx-Tank"
 date: 2026-09-21
 tags: ["meta"]
-draft: false
+draft: true
 hero: "img/posts/welcome/hero.png"
 hero_alt: "Tank-brain emblem: a tank whose turret becomes a brain traced with circuits"
 ---
