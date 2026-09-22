@@ -11,7 +11,6 @@ Selected work. Public repositories link out; private work is described without l
 - [AI-Research](https://github.com/jdlongmire/AI-Research) — Exploring the risks, limitations, and opportunities of artificial intelligence.
 - [ai-harness-engineering](https://github.com/ologos-repos/ai-harness-engineering) — AI Harness Engineering Standard (AHES): the normative standard for the control environment around AI models and agents.
 - [ologos-aioc-public](https://github.com/ologos-repos/ologos-aioc-public) — Reference architecture and executable kernel for the control plane beneath an AI Operations Center: governance decision gate, evidence plane, capability-aware routing.
-- [modus-primus](https://github.com/ologos-repos/modus-primus) — Portable Agent Harness Architecture (PAHA): a capability-centric framework for governed AI ecosystems.
 - [aide-canon](https://github.com/ologos-repos/aide-canon) — AI-centric Digital Ecosystem (AIDE): the canonical corpus of foundation, constructs, and enterprise platforms.
 - [thinxai.net](https://github.com/jdlongmire/thinxai.net) — AI-powered personal assistant framework: Telegram bot, web interface, and automation.
 - [thinxai-architecture](https://github.com/jdlongmire/thinxai-architecture) — Reference implementation for personal AI assistant infrastructure.
