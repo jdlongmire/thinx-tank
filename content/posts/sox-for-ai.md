@@ -8,7 +8,7 @@ hero: "img/posts/sox-for-ai/hero.png"
 hero_alt: "Infographic listing the four pillars: inventory, named ownership, documented controls, independent audit"
 ---
 
-In the last post I argued that the real AI risk is governance inversion: institutions reorganizing themselves around what AI systems optimize until the derived system drives the originators. The fix is enforceable structure. Here is what that structure looks like.
+In [the last post](https://blog.thinxai.net/posts/before-ai-starts-governing-us/) I argued that the real AI risk is governance inversion: institutions reorganizing themselves around what AI systems optimize until the derived system drives the originators. The fix is enforceable structure. Here is what that structure looks like.
 
 ## What Sarbanes-Oxley Got Right
 

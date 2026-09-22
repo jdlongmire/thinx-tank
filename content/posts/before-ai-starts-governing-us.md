@@ -12,7 +12,7 @@ Artificial intelligence is moving from a tool that assists people to infrastruct
 
 That shift raises a governance problem far more important than whether an AI system is "intelligent."
 
-In yesterday's post I defined AGI as a system capable of origination: contact with what is, rendering judgments, setting purposes. Everything we have now does derivation: operations on representations producing representations. Here is the governance consequence of that distinction. If human authority, accountability, and oversight are not enforceable, the derived system will begin to drive the originators. Us.
+In [yesterday's post](https://blog.thinxai.net/posts/what-i-mean-by-agi/) I defined AGI as a system capable of origination: contact with what is, rendering judgments, setting purposes. Everything we have now does derivation: operations on representations producing representations. Here is the governance consequence of that distinction. If human authority, accountability, and oversight are not enforceable, the derived system will begin to drive the originators. Us.
 
 Not because AI becomes conscious or malicious. Because institutions will reorganize themselves around what AI systems optimize, measure, recommend, and automate.
 
