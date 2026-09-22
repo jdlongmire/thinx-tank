@@ -58,6 +58,6 @@ The purpose is not to stop innovation. It is to ensure innovation is accountable
 
 ## Start Monday Morning
 
-I have written this in the language of legislation because that is where it belongs eventually. I wrote about [the regulatory case](https://aithinkr.net/articles/sarbanes-oxley-for-ai/) in February. But nothing here requires an act of Congress to begin. An enterprise could start its AI inventory this week, name its owners, and document its controls. The companies that build this muscle voluntarily will be ready when it becomes mandatory, and they will be governing their systems in the meantime instead of being governed by them.
+I have written this in the language of legislation because that is where it belongs eventually. I wrote about the regulatory case in February. But nothing here requires an act of Congress to begin. An enterprise could start its AI inventory this week, name its owners, and document its controls. The companies that build this muscle voluntarily will be ready when it becomes mandatory, and they will be governing their systems in the meantime instead of being governed by them.
 
 No consequential AI without a responsible human principal, auditable controls, meaningful recourse, and enforceable accountability.
