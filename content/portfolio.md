@@ -14,7 +14,6 @@ Selected work. Public repositories link out; private work is described without l
 - [aide-canon](https://github.com/ologos-repos/aide-canon) — AI-centric Digital Ecosystem (AIDE): the canonical corpus of foundation, constructs, and enterprise platforms.
 - [thinxai.net](https://github.com/jdlongmire/thinxai.net) — AI-powered personal assistant framework: Telegram bot, web interface, and automation.
 - [thinxai-architecture](https://github.com/jdlongmire/thinxai-architecture) — Reference implementation for personal AI assistant infrastructure.
-- [inference-stack](https://github.com/jdlongmire/inference-stack) — Reasoning outside the model: articles and the seven-layer framework for the engineering above the weights.
 - [enterprise-architecture-assistant](https://github.com/jdlongmire/enterprise-architecture-assistant) — An AI assistant for enterprise architecture work.
 
 ## Private
