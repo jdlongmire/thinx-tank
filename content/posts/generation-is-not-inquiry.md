@@ -18,9 +18,16 @@ For a deployed large language model, inference ordinarily means executing a mode
 
 In simplified form:
 
-[
-C_t \rightarrow P(x_{t+1}\mid C_t) \rightarrow x_{t+1} \rightarrow C_{t+1}
-]
+```
+C_t  →  P(x_{t+1} | C_t)  →  x_{t+1}  →  C_{t+1}
+```
+
+The variables:
+
+- **C_t**: the context at step *t*, meaning the original prompt plus every token generated so far.
+- **P(x_{t+1} | C_t)**: the probability distribution the model computes over possible next tokens, given that context.
+- **x_{t+1}**: the single token the decoding procedure selects, by greedy choice, sampling, or another rule.
+- **C_{t+1}**: the context with that token appended, which becomes the input to the next step.
 
 This is a genuine computational loop. It is an **autoregressive generation loop**.
 
