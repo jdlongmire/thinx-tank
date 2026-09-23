@@ -52,15 +52,15 @@ The first two are intrinsic to ordinary LLM operation. The third requires additi
 
 A basic model interaction looks approximately like this:
 
-[
-\text{Prompt} \rightarrow \text{Model Inference} \rightarrow \text{Generated Output}
-]
+```
+Prompt  →  Model Inference  →  Generated Output
+```
 
 Scientific or evidential inquiry has a different topology:
 
-[
-\text{Observation} \rightarrow \text{Hypothesis} \rightarrow \text{Prediction} \rightarrow \text{Test} \rightarrow \text{Evidence} \rightarrow \text{Revision}
-]
+```
+Observation  →  Hypothesis  →  Prediction  →  Test  →  Evidence  →  Revision
+```
 
 The second process contains something the first does not necessarily possess: a mechanism by which reality can push back.
 
@@ -118,13 +118,9 @@ Research into LLM reasoning supports caution here. Mondorf and Plank survey evid
 
 The native loop of an autoregressive language model is comparatively straightforward:
 
-[
-\text{Context}
-\rightarrow P(\text{next token})
-\rightarrow \text{selected token}
-\rightarrow \text{updated context}
-\rightarrow \cdots
-]
+```
+Context  →  P(next token)  →  selected token  →  updated context  →  …
+```
 
 Each generated token becomes part of the context used to calculate the next one.
 
@@ -152,15 +148,9 @@ This is where AI architecture becomes more interesting than the language model c
 
 A model can be embedded inside a system that provides mechanisms the model itself lacks:
 
-[
-\text{Observe}
-\rightarrow \text{Hypothesize}
-\rightarrow \text{Derive Expectations}
-\rightarrow \text{Test}
-\rightarrow \text{Evaluate}
-\rightarrow \text{Revise}
-\rightarrow \text{Report or Act}
-]
+```
+Observe  →  Hypothesize  →  Derive Expectations  →  Test  →  Evaluate  →  Revise  →  Report or Act
+```
 
 **Observe.** The system receives information that did not originate merely from its own previous generation. This might include documents, databases, source code, telemetry, sensor measurements, web resources, experimental results, or human testimony.
 
@@ -168,9 +158,9 @@ A model can be embedded inside a system that provides mechanisms the model itsel
 
 **Derive expectations.** If hypothesis (H) is correct, what should we observe?
 
-[
-H \rightarrow E
-]
+```
+H  →  E
+```
 
 where (E) represents an expected observation.
 
@@ -180,9 +170,9 @@ Now information can enter the process from outside the generative loop.
 
 **Evaluate.** The observed result is compared with the expectation.
 
-[
-E_{\text{predicted}} \stackrel{?}{=} E_{\text{observed}}
-]
+```
+E_predicted  ?=  E_observed
+```
 
 Agreement increases the hypothesis's evidential support. Disagreement may weaken or falsify it, depending on the structure of the claim and test.
 
@@ -231,20 +221,17 @@ Those questions expose the actual epistemic architecture.
 
 A system in which
 
-[
-\text{Generation} \rightarrow \text{Generation} \rightarrow \text{Generation}
-]
+```
+Generation  →  Generation  →  Generation
+```
 
 is still operating within a generative loop, regardless of how many times it asks itself to “reflect.”
 
 A system in which
 
-[
-\text{Generation}
-\rightarrow \text{External Test}
-\rightarrow \text{Evidence}
-\rightarrow \text{Revision}
-]
+```
+Generation  →  External Test  →  Evidence  →  Revision
+```
 
 has crossed an important architectural boundary. Something outside the model can constrain what the model says.
 
@@ -260,15 +247,9 @@ And when a model fails, the failure should be captured for evaluation, system im
 
 One useful progression is:
 
-[
-\text{Generation}
-<
-\text{Generation + Retrieval}
-<
-\text{Generation + Verification}
-<
-\text{Evidence-Bearing Inquiry}
-]
+```
+Generation  <  Generation + Retrieval  <  Generation + Verification  <  Evidence-Bearing Inquiry
+```
 
 The symbols represent increasing epistemic constraint, not a universal ranking of system capability. Different applications require different architectures.
 
