@@ -3,7 +3,8 @@ title: "Generation Is Not Inquiry"
 date: 2026-09-23
 tags: ["generative-ai", "reasoning", "architecture"]
 draft: true
-description: "AI inference, reasoning, and inquiry are routinely collapsed into one idea. They are different mechanisms, and the distinction matters when we build systems expected to earn justified confidence."
+description: "AI inference, reasoning, and inquiry are routinely collapsed into one idea. They are different mechanisms, and the distinction matters when we build systems expected to earn justified confidence."hero: "img/posts/generation-is-not-inquiry/hero.jpg"
+hero_alt: "Four-panel infographic: model inference as execution, text generation as an autoregressive loop, what generation lacks, and a real inquiry loop of observe, hypothesize, test, evaluate, revise"
 ---
 
 We increasingly hear that artificial intelligence systems “run inference loops.” The phrase sounds stronger than the underlying mechanism usually warrants.
