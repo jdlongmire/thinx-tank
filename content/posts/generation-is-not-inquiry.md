@@ -6,6 +6,7 @@ draft: false
 description: "AI inference, reasoning, and inquiry are routinely collapsed into one idea. They are different mechanisms, and the distinction matters when we build systems expected to earn justified confidence."
 hero: "img/posts/generation-is-not-inquiry/hero.jpg"
 hero_alt: "Four-panel infographic: model inference as execution, text generation as an autoregressive loop, what generation lacks, and a real inquiry loop of observe, hypothesize, test, evaluate, revise"
+hero_position: body
 ---
 
 We increasingly hear that artificial intelligence systems “run inference loops.” The phrase sounds stronger than the underlying mechanism usually warrants.
@@ -13,6 +14,8 @@ We increasingly hear that artificial intelligence systems “run inference loops
 To a machine-learning engineer, *inference* can simply mean executing a trained model against new input. To a logician, scientist, or ordinary reader, inference suggests something richer: reasoning from premises, weighing evidence, drawing conclusions, testing explanations, and perhaps revising a conclusion when the evidence proves it wrong.
 
 Those are different things.
+
+![Four-panel infographic: model inference as execution, text generation as an autoregressive loop, what generation lacks, and a real inquiry loop of observe, hypothesize, test, evaluate, revise](/img/posts/generation-is-not-inquiry/hero.jpg)
 
 For a deployed large language model, inference ordinarily means executing a model whose learned parameters are already fixed. Given some context, the model computes a probability distribution over possible next tokens, selects one according to its decoding procedure, adds that token to the context, and repeats.
 
