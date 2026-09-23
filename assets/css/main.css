@@ -74,6 +74,35 @@ h1 { font-size: 2rem; margin-top: 0; }
   margin: 0;
 }
 
+/* featured post (landing page) */
+.featured {
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--amber);
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem 1rem;
+  margin-bottom: 2.5rem;
+}
+.featured .kicker {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.featured img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.featured h2 { margin: 0 0 0.35rem; font-size: 1.5rem; }
+.featured h2 a { color: var(--accent); text-decoration: none; }
+.featured h2 a:hover { text-decoration: underline; }
+.featured-desc { color: var(--muted); margin: 0.5rem 0 0.75rem; }
+.featured .read-more { color: var(--accent); font-weight: 600; }
+
 /* post list */
 .post-list {
   list-style: none;

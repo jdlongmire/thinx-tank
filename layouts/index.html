@@ -7,12 +7,29 @@
   <p class="tagline">{{ .Site.Params.tagline }}</p>
 </section>
 
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $sorted := $posts.ByDate.Reverse }}
+{{ if $sorted }}
+
+{{ range first 1 $sorted }}
+<section class="featured">
+  <p class="kicker">Latest post</p>
+  {{ with .Params.hero }}
+  <a href="{{ $.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $.Params.hero_alt | default $.Title }}"></a>
+  {{ end }}
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+  {{ with .Params.description }}<p class="featured-desc">{{ . }}</p>{{ end }}
+  <p><a class="read-more" href="{{ .RelPermalink }}">Read more</a></p>
+</section>
+{{ end }}
+
 <section>
   <h2>Recent posts</h2>
-  {{ $posts := where .Site.RegularPages "Section" "posts" }}
-  {{ if $posts }}
+  {{ $rest := after 1 $sorted }}
+  {{ if $rest }}
   <ul class="post-list">
-    {{ range $posts.ByDate.Reverse }}
+    {{ range $rest }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
@@ -25,7 +42,11 @@
     {{ end }}
   </ul>
   {{ else }}
-  <p>No posts yet.</p>
+  <p>More posts coming soon.</p>
   {{ end }}
 </section>
+
+{{ else }}
+<p>No posts yet.</p>
+{{ end }}
 {{ end }}
