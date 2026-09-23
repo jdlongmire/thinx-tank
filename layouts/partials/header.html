@@ -7,6 +7,7 @@
     <nav>
       <a href="{{ "posts/" | relLangURL }}">Posts</a>
       <a href="{{ "portfolio/" | relLangURL }}">Portfolio</a>
+      <a href="{{ "search/" | relLangURL }}">Search</a>
       <a href="{{ "tags/" | relLangURL }}">Tags</a>
       {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}
     </nav>

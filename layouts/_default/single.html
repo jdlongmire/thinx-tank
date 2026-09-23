@@ -3,7 +3,7 @@
   <header>
     <h1>{{ .Title }}</h1>
     <p class="meta">
-      {{ if eq .Section "posts" }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+      {{ if eq .Section "posts" }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time> &middot; {{ .ReadingTime }} min read{{ end }}
       {{ with .Params.tags }}
       <span class="tags">
         {{ range . }}<a class="tag" href="{{ "tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
@@ -12,14 +12,56 @@
     </p>
   </header>
   {{ with .Params.hero }}
-  {{ if ne $.Params.hero_position "body" }}
   <figure class="hero post-hero">
     <img src="{{ . | relURL }}" alt="{{ $.Params.hero_alt | default $.Title }}">
   </figure>
   {{ end }}
+  {{ $toc := .TableOfContents }}
+  {{ if in $toc "<li" }}
+  <aside class="toc">
+    <p class="kicker">On this page</p>
+    {{ $toc }}
+  </aside>
   {{ end }}
   <div class="content">
     {{ .Content }}
   </div>
+
+  {{ with .Params.series }}
+  {{ $seriesName := . }}
+  {{ $ordered := (where (where $.Site.RegularPages "Section" "posts") "Params.series" $seriesName).ByDate }}
+  {{ $total := len $ordered }}
+  {{ $prev := false }}{{ $next := false }}{{ $pos := 0 }}
+  {{ range $i, $p := $ordered }}
+    {{ if eq $p.RelPermalink $.RelPermalink }}
+      {{ $pos = add $i 1 }}
+      {{ if gt $i 0 }}{{ $prev = index $ordered (sub $i 1) }}{{ end }}
+      {{ if lt $i (sub $total 1) }}{{ $next = index $ordered (add $i 1) }}{{ end }}
+    {{ end }}
+  {{ end }}
+  <section class="series-note">
+    <p class="kicker">Series: {{ $seriesName }} &middot; part {{ $pos }} of {{ $total }}</p>
+    <p class="series-nav">
+      {{ with $prev }}<a href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>{{ end }}
+      {{ with $next }}<a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>{{ end }}
+    </p>
+  </section>
+  {{ end }}
+
+  {{ $related := where (.Site.RegularPages.Related .) "Section" "posts" | first 3 }}
+  {{ $related = where $related "RelPermalink" "!=" .RelPermalink }}
+  {{ with $related }}
+  <section class="related">
+    <h2>Related posts</h2>
+    <ul class="post-list">
+      {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 </article>
 {{ end }}

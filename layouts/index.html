@@ -11,6 +11,10 @@
 {{ $sorted := $posts.ByDate.Reverse }}
 {{ if $sorted }}
 
+{{ $rest := after 1 $sorted }}
+{{ $paginator := .Paginate $rest 10 }}
+
+{{ if eq $paginator.PageNumber 1 }}
 {{ range first 1 $sorted }}
 <section class="featured">
   <p class="kicker">Latest post</p>
@@ -18,18 +22,18 @@
   <a href="{{ $.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $.Params.hero_alt | default $.Title }}"></a>
   {{ end }}
   <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time> &middot; {{ .ReadingTime }} min read</p>
   {{ with .Params.description }}<p class="featured-desc">{{ . }}</p>{{ end }}
   <p><a class="read-more" href="{{ .RelPermalink }}">Read more</a></p>
 </section>
 {{ end }}
+{{ end }}
 
 <section>
   <h2>Recent posts</h2>
-  {{ $rest := after 1 $sorted }}
-  {{ if $rest }}
+  {{ if $paginator.Pages }}
   <ul class="post-list">
-    {{ range $rest }}
+    {{ range $paginator.Pages }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
@@ -41,6 +45,13 @@
     </li>
     {{ end }}
   </ul>
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">&larr; Newer posts</a>{{ else }}<span></span>{{ end }}
+    <span class="meta">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Older posts &rarr;</a>{{ else }}<span></span>{{ end }}
+  </nav>
+  {{ end }}
   {{ else }}
   <p>More posts coming soon.</p>
   {{ end }}
