@@ -24,6 +24,11 @@ infographic. No exceptions. The visual is part of the article, not decoration.
    the site-wide default.
 4. Tags set (2-4, lowercase).
 5. Proofread once on a phone.
+6. No raw TeX: the theme has no math renderer, so `\rightarrow`, `\text`,
+   `\[...\]` blocks and the like render as literal backslash soup.
+   Write equations in fenced code blocks using unicode instead
+   (`->` for arrows, `...` for ellipsis, `?=` for uncertain equality)
+   and define every variable in prose.
 
 ## AI-tells review
 
