@@ -12,9 +12,11 @@
     </p>
   </header>
   {{ with .Params.hero }}
+  {{ if ne $.Params.hero_position "body" }}
   <figure class="hero post-hero">
     <img src="{{ . | relURL }}" alt="{{ $.Params.hero_alt | default $.Title }}">
   </figure>
+  {{ end }}
   {{ end }}
   <div class="content">
     {{ .Content }}
