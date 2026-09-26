@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a3f"/><stop offset="1" stop-color="#0f1330"/>
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232b63"/><stop offset="1" stop-color="#1a2050"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="960" fill="url(#bg)"/>
+
+  <!-- Row 1 -->
+  <g>
+    <rect x="30" y="30" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="175" y="78" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">THE CHAIN &#183; WHAT IT IS</text>
+    <text x="175" y="160" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="175" dy="0">Strategy &#8594; Architecture</tspan><tspan x="175" dy="24">&#8594; Roadmaps &#8594; Standards</tspan><tspan x="175" dy="24">&#8594; Delivery.</tspan><tspan x="175" dy="24">Intent becomes the</tspan><tspan x="175" dy="24">operating enterprise.</tspan></text>
+
+    <rect x="335" y="30" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="480" y="78" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">GENAI &#183; WHAT IT IS</text>
+    <text x="480" y="160" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="480" dy="0">A horizontal capability</tspan><tspan x="480" dy="24">across the whole chain:</tspan><tspan x="480" dy="24">synthesis, correlation,</tspan><tspan x="480" dy="24">generation, traceability.</tspan></text>
+
+    <rect x="640" y="30" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="785" y="78" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">HUMAN &#183; WHAT IT IS</text>
+    <text x="785" y="160" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="785" dy="0">The control plane:</tspan><tspan x="785" dy="24">judgment, provenance,</tspan><tspan x="785" dy="24">governance, decision</tspan><tspan x="785" dy="24">authority.</tspan></text>
+  </g>
+
+  <!-- Row 2 -->
+  <g>
+    <rect x="30" y="335" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="175" y="383" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">THE CHAIN &#183; WHAT IT DOES</text>
+    <text x="175" y="465" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="175" dy="0">Translates strategy into a</tspan><tspan x="175" dy="24">coherent future state,</tspan><tspan x="175" dy="24">sequenced investments,</tspan><tspan x="175" dy="24">buildable standards.</tspan></text>
+
+    <rect x="335" y="335" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="480" y="383" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">GENAI &#183; WHAT IT DOES</text>
+    <text x="480" y="465" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="480" dy="0">Compresses the information</tspan><tspan x="480" dy="24">work: hours of searching</tspan><tspan x="480" dy="24">and correlating &#8212;</tspan><tspan x="480" dy="24">in minutes.</tspan></text>
+
+    <rect x="640" y="335" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="785" y="383" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">HUMAN &#183; WHAT IT DOES</text>
+    <text x="785" y="465" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="785" dy="0">Curates sources, semantics,</tspan><tspan x="785" dy="24">policy, acceptance criteria</tspan><tspan x="785" dy="24">&#8212; through the whole</tspan><tspan x="785" dy="24">lifecycle.</tspan></text>
+  </g>
+
+  <!-- Row 3 -->
+  <g>
+    <rect x="30" y="640" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="175" y="688" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">THE CHAIN &#183; WHY IT MATTERS</text>
+    <text x="175" y="770" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="175" dy="0">Coherence across</tspan><tspan x="175" dy="24">capabilities, information,</tspan><tspan x="175" dy="24">systems, organizations</tspan><tspan x="175" dy="24">&#8212; while all change.</tspan></text>
+
+    <rect x="335" y="640" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="480" y="688" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">GENAI &#183; WHY IT MATTERS</text>
+    <text x="480" y="770" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="480" dy="0">Multiplies the architect's</tspan><tspan x="480" dy="24">reach. The difficulty was</tspan><tspan x="480" dy="24">never the documents &#8212;</tspan><tspan x="480" dy="24">it was their relationships.</tspan></text>
+
+    <rect x="640" y="640" width="290" height="290" rx="12" fill="url(#cell)" stroke="#46508c"/>
+    <text x="785" y="688" font-size="12" letter-spacing="2" fill="#e9a13b" font-weight="700" text-anchor="middle">HUMAN &#183; WHY IT MATTERS</text>
+    <text x="785" y="770" font-size="14.5" fill="#dfe3f7" text-anchor="middle"><tspan x="785" dy="0">Generation is not</tspan><tspan x="785" dy="24">authority. Consequential</tspan><tspan x="785" dy="24">decisions stay human &#8212;</tspan><tspan x="785" dy="24">and accountable.</tspan></text>
+  </g>
+</svg>
