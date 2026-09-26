@@ -47,7 +47,7 @@ After the ten-minute discussion, the protégé should be able to:
 - [x] Work-package definition.
 - [x] Ten-minute mentoring narrative.
 - [ ] One-page protégé takeaway.
-- [ ] Executive graphic: Human-Curated, AI-Enabled EA.
+- [x] Executive graphic: Human-Curated, AI-Enabled EA (hcae-3x3-graphic.png / .svg, 2026-09-26).
 - [ ] Candidate Thinx-Tank article derived from the mentoring narrative.
 - [ ] Final human review and acceptance.
 
