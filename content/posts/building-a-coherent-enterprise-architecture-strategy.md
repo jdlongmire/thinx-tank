@@ -2,7 +2,7 @@
 title: "From Strategy to Coherence: Building an Enterprise Architecture Strategy That Can Govern Change"
 date: 2026-09-27
 tags: ["enterprise-architecture", "strategy", "governance", "roadmaps", "generative-ai", "hcae"]
-draft: true
+draft: false
 description: "A research-grounded method for turning enterprise intent into coherent architectural choices, investments, roadmaps, standards, and adaptive governance."
 ---
 
