@@ -1,7 +1,7 @@
 ---
 title: "From Strategy to Coherence: Building an Enterprise Architecture Strategy That Can Govern Change"
 date: 2026-09-27
-tags: ["enterprise-architecture", "strategy", "governance", "roadmaps", "generative-ai", "hcae"]
+tags: ["enterprise-architecture", "strategy", "governance"]
 draft: false
 description: "A research-grounded method for turning enterprise intent into coherent architectural choices, investments, roadmaps, standards, and adaptive governance."
 ---
@@ -24,7 +24,7 @@ My working definition is:
 
 > **Enterprise Architecture Strategy is the enterprise's reasoned set of architectural choices, principles, guardrails, and transition commitments that translate strategic intent into coherent capability, investment, technology, and delivery decisions, with explicit mechanisms for governance, evidence, and adaptation.**
 
-That definition is a synthesis, not a quotation from an EA framework. It emerged from comparing established EA research and standards with empirical work on where EA appears to contribute value, and where claims for EA outrun the evidence.
+That definition is a synthesis, not a quotation from an EA framework. It emerged from comparing established EA research and standards against empirical work on where EA actually contributes value, and where the claims outrun the evidence.
 
 The resulting method is compact:
 
@@ -32,9 +32,13 @@ The resulting method is compact:
 
 The simplicity is deliberate. A strategy has to be understandable enough to govern decisions while retaining enough structure to preserve traceability.
 
+![Infographic titled "From Strategy to Coherence: A Practical Path to Enterprise Architecture Strategy," showing the five stages (Intent, Interpret, Choose, Execute, Learn), the eight tests of coherence, and the line "Architecture becomes strategy when it governs consequential choices."](img/posts/building-a-coherent-enterprise-architecture-strategy/from-strategy-to-coherence.jpg)
+
+*The five-stage method and the eight coherence tests, summarized in one view.*
+
 ## Strategy does not translate itself
 
-One of the more useful findings in the Enterprise Architecture literature is also one of the easiest to overlook: business strategy frequently does not provide enough specificity to determine stable process and technology choices.
+One of the most useful findings in the EA literature is also one of the easiest to overlook: business strategy rarely provides enough specificity to determine stable process and technology choices.
 
 MIT CISR's work on operating models addresses this gap. Ross, Weill, and Robertson describe an operating model as the organization's intended level of business-process integration and standardization, then connect that operating logic to the enterprise architecture required to execute it (Ross, Weill and Robertson, 2006).
 
