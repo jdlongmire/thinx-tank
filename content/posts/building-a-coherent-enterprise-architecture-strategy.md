@@ -32,7 +32,7 @@ The resulting method is compact:
 
 The simplicity is deliberate. A strategy has to be understandable enough to govern decisions while retaining enough structure to preserve traceability.
 
-![Infographic titled "From Strategy to Coherence: A Practical Path to Enterprise Architecture Strategy," showing the five stages (Intent, Interpret, Choose, Execute, Learn), the eight tests of coherence, and the line "Architecture becomes strategy when it governs consequential choices."](img/posts/building-a-coherent-enterprise-architecture-strategy/from-strategy-to-coherence.jpg)
+![Infographic titled "From Strategy to Coherence: A Practical Path to Enterprise Architecture Strategy," showing the five stages (Intent, Interpret, Choose, Execute, Learn), the eight tests of coherence, and the line "Architecture becomes strategy when it governs consequential choices."](/img/posts/building-a-coherent-enterprise-architecture-strategy/from-strategy-to-coherence.jpg)
 
 *The five-stage method and the eight coherence tests, summarized in one view.*
 
