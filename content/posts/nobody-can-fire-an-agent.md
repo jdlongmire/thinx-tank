@@ -8,7 +8,7 @@ hero: "img/posts/nobody-can-fire-an-agent/hero.png"
 hero_alt: "Navy graphic with amber text reading 'Nobody can fire an agent'"
 ---
 
-Two days ago Dataiku published its Global AI Confessions Report, a Harris Poll survey of 685 global CIOs, and the numbers read like a confession in the literal sense. 81% say they have lost oversight of their own AI agents. 83% lack standardized agent lifecycle management. 47% have already decommissioned more than 20 agents this year, largely in the dark, with no standard process for doing it.
+Two days ago Dataiku published its [Global AI Confessions Report](https://www.businesswire.com/news/home/20260924524879/en/81-of-Global-CIOs-Say-They-Have-Lost-Oversight-of-Their-Own-AI-Agents), a Harris Poll survey of 685 global CIOs, and the numbers read like a confession in the literal sense. 81% say they have lost oversight of their own AI agents. 83% lack standardized agent lifecycle management. 47% have already decommissioned more than 20 agents this year, largely in the dark, with no standard process for doing it.
 
 The rest of the survey fills in a specific kind of ugly. 67% of CIOs estimate 51 or more agents are running in production, and 90% say they are confident they have complete tracking of all of them. But 72% cannot consistently confirm whether those agents are delivering the business outcomes they were built for, and only 21% have full, near-real-time visibility into AI costs with attribution by business unit, team, or use case.
 
