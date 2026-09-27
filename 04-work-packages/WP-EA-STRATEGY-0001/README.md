@@ -101,7 +101,8 @@ Compare relevant elements of TOGAF, MIT CISR, NIST/federal EA concepts, Gartner 
 - [ ] 3x3 explanatory graphic.
 - [ ] Example worked strategy using a non-proprietary enterprise scenario.
 - [ ] HCAE augmentation model for strategy development and maintenance.
-- [ ] Candidate Thinx-Tank article/series.
+- [ ] **Publication deliverable: sourced Thinx-Tank blog post** presenting the validated method, evidence, limitations, and practical application.
+- [ ] Publication-quality source notes with primary/authoritative links and claim-level traceability.
 - [ ] Final human review and acceptance.
 
 ## Relationship to WP-EA-HCAE-0001
@@ -126,6 +127,27 @@ The final method must:
 8. provide traceability from intent through delivery and outcomes;
 9. include measurable feedback and explicit adaptation triggers;
 10. work in both traditional and AI-enabled enterprises; and
-11. preserve human architectural accountability under HCAE.
+11. preserve human architectural accountability under HCAE; and
+12. culminate in a publication-ready Thinx-Tank article whose substantive external claims are supported by traceable sources.
 
 Human-Curated, AI-Enabled (HCAE)
+
+
+## Publication disposition
+
+The terminal deliverable of this work package is a **Thinx-Tank blog post with sources**. Research artifacts are intermediate evidence and method-development products supporting that publication.
+
+The article should:
+
+- define the problem of EA strategy coherence in practitioner-accessible terms;
+- distinguish enterprise strategy, architecture strategy, target architecture, roadmaps, standards, and governance;
+- present the validated Thinx-Tank strategy chain and coherence tests;
+- identify which elements derive from established research/frameworks and which are Thinx-Tank synthesis;
+- use primary or authoritative sources wherever available;
+- cite sources adjacent to consequential factual or framework claims and include a references section;
+- report meaningful disagreement or limitations in the literature rather than manufacture consensus;
+- include practical guidance for constructing and maintaining an EA strategy;
+- address the implications of GenAI and HCAE for continuous architecture strategy; and
+- be published only after research conclusions and source provenance have been reviewed.
+
+The intended publication location is `content/posts/` in this repository after human acceptance.
