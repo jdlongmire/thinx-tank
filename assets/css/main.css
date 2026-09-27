@@ -194,6 +194,8 @@ h1 { font-size: 2rem; margin-top: 0; }
 .post-list a { color: var(--ink); text-decoration: none; font-weight: 600; }
 .post-list a:hover { color: var(--accent); text-decoration: underline; }
 .meta { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.post > header .meta { white-space: normal; }
+.post > header .tags { max-width: 100%; }
 
 /* tags */
 .tags { display: inline-flex; gap: 0.4rem; flex-wrap: wrap; }
