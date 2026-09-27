@@ -144,3 +144,60 @@ Three refinements are now stronger than in the initial charter:
 - Empirical evidence for "living" versus fixed target architectures and roadmaps.
 - Research on EA effectiveness in AI-intensive operating models.
 - Evidence on architecture decision rights and governance as mediators of strategic outcomes.
+
+
+## E-011 — Systematic review: EA value claims are frequently under-evidenced
+
+**Source:** Gong, Y. & Janssen, M. (2019), "The value of and myths about enterprise architecture," *International Journal of Information Management*, 46, 1–9. DOI: 10.1016/j.ijinfomgt.2018.11.006.
+
+**Evidence:** The systematic literature review found substantial variation in what authors call EA and how value is claimed. Of the reviewed articles containing EA value claims, only a subset supplied empirical evidence. The authors argue that EA itself should not be assumed to create value directly; value depends on context-dependent mechanisms.
+
+**Confidence:** HIGH. Peer-reviewed systematic literature review; full text examined through the TU Delft repository/Elsevier record.
+
+**Disposition:** FOUNDATIONAL CAUTION.
+
+**Implication:** The Thinx-Tank article must avoid claims that EA automatically improves performance. The method should identify the mechanisms by which architecture influences decisions, capabilities, investments, governance, and delivery, then measure those mechanisms and outcomes.
+
+## E-012 — Empirical study: EA management affects agility through IT capabilities
+
+**Source:** Pattij, M., van de Wetering, R. & Kusters, R.J. (2019), "From Enterprise Architecture Management to Organizational Agility: The Mediating Role of IT Capabilities," BLED 2019 Proceedings.
+
+**Evidence:** Survey of 110 EA stakeholders using PLS-SEM reported that the effect of EA management on organizational agility was mediated by IT capabilities.
+
+**Confidence:** MEDIUM-HIGH. Peer-reviewed conference study with reported method and sample; narrower evidence base than a replicated journal literature.
+
+**Disposition:** RETAIN AS MECHANISM EVIDENCE.
+
+**Implication:** Reinforces the proposition that EA produces outcomes indirectly by shaping enterprise capabilities and decision conditions.
+
+## E-013 — Empirical study: EA can improve IT investment decision preparation
+
+**Source:** *How enterprise architecture improves the quality of IT investment decisions*, *Journal of Systems and Software* 152 (2019), 134–150. DOI: 10.1016/j.jss.2019.02.053.
+
+**Evidence:** Quantitative study using survey data from 142 participants found that higher-performing organizations were more mature in EA and used more EA artifacts and insights in IT investment decision-making. The authors locate EA value particularly in preparation of investment decisions.
+
+**Confidence:** MEDIUM-HIGH. Peer-reviewed quantitative study; observational relationships should not be overstated as universal causation.
+
+**Disposition:** RETAIN.
+
+**Implication:** Strengthens **investment coherence** as an explicit test. EA strategy should materially shape portfolio and investment choices, not merely describe a technical future state.
+
+## E-014 — Empirical study: EA maturity associated with multiple IT-value dimensions in U.S. hospitals
+
+**Source:** Bradley, R., Pratt, R., Byrd, T.A. & Simmons, L. (2011), "The Role of Enterprise Architecture in the Quest for IT Value," *MIS Quarterly Executive*, 10(2).
+
+**Evidence:** Survey responses from 140 CIOs in U.S. hospitals reported positive relationships between EA maturity and external relationship management, lower operational costs, strategic agility, business-IT alignment, and risk management.
+
+**Confidence:** MEDIUM. Empirical study, but single industry and self-reported CIO responses constrain generalization.
+
+**Disposition:** RETAIN WITH EXPLICIT POPULATION LIMITATION.
+
+**Implication:** Adds evidence that architecture maturity can correlate with valuable organizational conditions while reinforcing the need to identify mediating mechanisms and context.
+
+## Research correction
+
+The evidence now warrants a stricter formulation of the WP's value proposition:
+
+> EA strategy does not create enterprise value merely by existing. It creates conditions, constraints, shared understanding, decision information, and governance mechanisms through which capabilities, investments, and delivery can create value.
+
+This distinction will govern the publication draft.
