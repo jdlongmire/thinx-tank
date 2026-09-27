@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="about">
+  <img class="about-photo" src="{{ "img/jd-profile.jpg" | relURL }}" alt="Portrait of James (JD) Longmire">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+{{ end }}
