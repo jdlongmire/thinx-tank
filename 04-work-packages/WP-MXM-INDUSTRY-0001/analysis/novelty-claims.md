@@ -1,53 +1,55 @@
-# Candidate Novelty Claims
+# Candidate Contribution Claims
 
-Status: twice narrowed by adversarial prior-art review, 2026-09-27.
+Status: adversarial pass 3, 2026-09-27.
 
-## Mechanisms excluded from novelty
-
-Do not claim invention of HITL approval, guardrails, memory, tool mediation, tracing, provenance, orchestration, provider abstraction, runtime harnesses, agent constitutions, policy versioning, cross-runtime agent specifications, runtime-agnostic conformance suites, confidence calibration, or human veto/control.
+The research now distinguishes **mechanism novelty**, **architectural composition**, and **domain adaptation**. Established prior art is not treated as disqualifying where MxM's contribution is demonstrably in composition or operationalization.
 
 ## NC-01 — Six-surface normative decomposition
 
-Candidate: Mind, Morals, Mission, Memory, Methods and Means form a compact concern model whose semantics remain stable across implementation changes.
+Candidate: Mind, Morals, Mission, Memory, Methods and Means form a compact concern model whose semantics remain stable across model/provider/runtime changes.
 
-Burden: show non-trivial separation of concerns and engineering value versus existing taxonomies/frameworks. Naming/alliteration has zero novelty weight.
+Class: candidate architectural composition.
 
-Status: **SURVIVES, UNPROVEN.**
+Status: SURVIVES, UNPROVEN.
 
 ## NC-02 — Epistemic contract separated from procedure and authority
 
 Candidate: MxM makes inference form, warrant, confidence and revision discipline part of a persistent Mind contract, while Methods owns procedures and Means owns execution.
 
-Burden: show that this separation is not reducible to model instructions/evals and improves cross-model/harness preservation or calibration.
+Class: candidate architectural composition / possible epistemic-governance contribution.
 
-Status: **SURVIVES NARROWED, UNPROVEN.**
+Status: SURVIVES NARROWED, UNPROVEN.
 
-## NC-03 — Acceptance as post-evidence human disposition
+## NC-03 — Engineering-grade Acceptance semantics for AI-agent runtime governance
 
-Candidate: MxM distinguishes authorization, execution, verification and Acceptance, with Acceptance reserved to the Principal Operator after evidence.
+Candidate: MxM operationalizes the mature distinctions among authorization, execution, verification, evidence and human decision authority as an explicit runtime state model for persistent AI aides.
 
-Burden: compare directly with assurance/safety cases, BPM/workflow acceptance, engineering change control and agent HITL systems.
+Class: likely domain adaptation plus architectural composition, not mechanism novelty.
 
-Status: **SURVIVES NARROWED, PRIOR-ART SEARCH INCOMPLETE.**
+Required demonstration: show prevention/detection of self-certification, fabricated completion, approval/acceptance conflation and provenance loss across heterogeneous runtimes.
 
-## NC-04 — Evidence-governed state transition semantics
+Status: RECLASSIFIED, PLAUSIBLE CONTRIBUTION IF DEMONSTRATED.
 
-Candidate: MxM does not invent provenance; it specifies which governed state transitions require evidence and how evidence grounds verification and Acceptance.
+## NC-04 — Evidence-governed state-transition semantics
 
-Burden: map to W3C PROV and demonstrate the additional governance semantics.
+Candidate: MxM binds governed runtime state transitions to evidence and Acceptance while remaining compatible with established provenance/assurance models such as W3C PROV and ISO 15026/SACM.
 
-Status: **SURVIVES NARROWED, UNPROVEN.**
+Class: domain adaptation / composition.
 
-## NC-05 — Normative invariance across runtime harness replacement
+Status: RECLASSIFIED, UNPROVEN VALUE.
 
-Candidate: unlike cross-runtime agent representation alone, MxM preserves normative reasoning/governance semantics while replacing the runtime harness.
+## NC-05 — Normative invariance across runtime-harness replacement
 
-Burden: demonstrate over at least two materially different runtimes using a shared conformance suite. Open Agent Specification is mandatory comparator.
+Candidate: MxM preserves normative reasoning/governance semantics while replacing the underlying runtime harness.
 
-Status: **SURVIVES NARROWED; STRONGEST EMPIRICAL CLAIM.**
+Class: candidate meta-architectural property.
 
-## Current thesis candidate
+Required demonstration: at least two materially different runtimes, one invariant/conformance suite, and documented failures where an invariant cannot be preserved.
 
-MxM's plausible contribution is architectural composition: a normative meta-architecture that separates epistemic posture, authority constraints, mission/identity, persistence authority, procedural obligations and executable capabilities, binds consequential state transitions to evidence and human Acceptance, and preserves those semantics across heterogeneous runtime harnesses.
+Status: STRONGEST EMPIRICAL CLAIM.
 
-No originality conclusion is yet warranted.
+## Current paper thesis
+
+MxM should not be sold as an invention of agent governance mechanisms. Its strongest defensible contribution candidate is a **systems-engineering-informed normative meta-architecture for persistent AI aides**: a six-surface separation of epistemic posture, authority constraints, mission/identity, persistence, procedure and capability, coupled to evidence-backed human governance and designed to preserve those semantics across heterogeneous runtime harnesses.
+
+Whether that composition is sufficiently distinct and useful to count as a durable industry contribution remains an empirical question.
