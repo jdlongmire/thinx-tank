@@ -253,7 +253,7 @@ That is where architecture becomes strategy.
 
 ## References
 
-Blosch, M., van der Heiden, G. and Ganter, F. (2026) *Build Future-State Architectures to Provide Guidance and Guardrails*. Gartner, 4 August 2026.
+Blosch, M., van der Heiden, G. and Ganter, F. (2026) *Build Future-State Architectures to Provide Guidance and Guardrails*. Gartner, 4 August 2026. https://www.gartner.com/en/documents/8226161
 
 Gong, Y. and Janssen, M. (2019) 'The value of and myths about enterprise architecture', *International Journal of Information Management*, 46, pp. 1–9. doi:10.1016/j.ijinfomgt.2018.11.006.
 
@@ -263,14 +263,14 @@ Khilare, A. (2026) *Why Most EA Roadmaps Fail and How to Build One That Works*. 
 
 Madan, P. and Jhawar, A. (2025) *Ignition Guide to Business Capability-Based Investment Planning*. Gartner, 6 May 2025.
 
-National Institute of Standards and Technology (NIST) (2026) *Enterprise Architecture (EA), CSRC Glossary*. Definitions sourced from CNSSI 4009-2022 and related federal sources.
+National Institute of Standards and Technology (NIST) (2026) *Enterprise Architecture (EA), CSRC Glossary*. Definitions sourced from CNSSI 4009-2022 and related federal sources. https://csrc.nist.gov/glossary/term/enterprise_architecture
 
 Pattij, M., van de Wetering, R. and Kusters, R. (2019) 'From Enterprise Architecture Management to Organizational Agility: The Mediating Role of IT Capabilities', *BLED 2019 Proceedings*, paper 31.
 
 Ross, J.W. and Quaadgras, A. (2012) *Enterprise Architecture Is Not Just for Architects*. MIT CISR Research Briefing, XII(9).
 
-Ross, J.W., Weill, P. and Robertson, D.C. (2006) *Enterprise Architecture as Strategy: Creating a Foundation for Business Execution*. Boston, MA: Harvard Business School Press.
+Ross, J.W., Weill, P. and Robertson, D.C. (2006) *Enterprise Architecture as Strategy: Creating a Foundation for Business Execution*. Boston, MA: Harvard Business School Press. https://cisr.mit.edu/publication/enterprise-architecture-as-strategy
 
-The Open Group (2022) *The TOGAF Standard, 10th Edition*. Reading, UK: The Open Group.
+The Open Group (2022) *The TOGAF Standard, 10th Edition*. Reading, UK: The Open Group. https://publications.opengroup.org/standards/togaf
 
 van den Berg, M., Slot, R., van Steenbergen, M., Faasse, P. and van Vliet, H. (2019) 'How enterprise architecture improves the quality of IT investment decisions', *Journal of Systems and Software*, 152, pp. 134–150. doi:10.1016/j.jss.2019.02.053.
