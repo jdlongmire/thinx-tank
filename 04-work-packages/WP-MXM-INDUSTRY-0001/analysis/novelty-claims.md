@@ -1,45 +1,53 @@
 # Candidate Novelty Claims
 
-Status: narrowed after initial prior-art pass, 2026-09-27.
+Status: twice narrowed by adversarial prior-art review, 2026-09-27.
 
-## Rejected as novelty claims
+## Mechanisms excluded from novelty
 
-MxM must not claim invention of human-in-the-loop approval, guardrails, persistent/session memory, tool mediation, tracing, orchestration, provider-independent model clients, runtime agent harnesses, human-control principles, or repeatable workflow enforcement.
+Do not claim invention of HITL approval, guardrails, memory, tool mediation, tracing, provenance, orchestration, provider abstraction, runtime harnesses, agent constitutions, policy versioning, cross-runtime agent specifications, runtime-agnostic conformance suites, confidence calibration, or human veto/control.
 
-## Claims retained for investigation
+## NC-01 — Six-surface normative decomposition
 
-### NC-01 — Six-surface meta-architectural decomposition
+Candidate: Mind, Morals, Mission, Memory, Methods and Means form a compact concern model whose semantics remain stable across implementation changes.
 
-Mind, Morals, Mission, Memory, Methods and Means may form a compact decomposition for persistent governed AI aides that remains stable across model, provider and runtime-harness replacement.
+Burden: show non-trivial separation of concerns and engineering value versus existing taxonomies/frameworks. Naming/alliteration has zero novelty weight.
 
-Burden: demonstrate useful invariants rather than mnemonic relabeling.
+Status: **SURVIVES, UNPROVEN.**
 
-### NC-02 — Explicit normative epistemic surface
+## NC-02 — Epistemic contract separated from procedure and authority
 
-MxM may treat epistemic posture as an architectural concern distinct from procedural workflow, including inference-type recognition, warrant-sensitive confidence and revision discipline.
+Candidate: MxM makes inference form, warrant, confidence and revision discipline part of a persistent Mind contract, while Methods owns procedures and Means owns execution.
 
-Burden: targeted search for epistemic-governance architectures and measurable value over instructions/evals alone.
+Burden: show that this separation is not reducible to model instructions/evals and improves cross-model/harness preservation or calibration.
 
-### NC-03 — Acceptance as a distinct authority transition
+Status: **SURVIVES NARROWED, UNPROVEN.**
 
-MxM separates proposal, authorization, execution, evidence, verification and human Acceptance rather than treating approval or successful execution as completion.
+## NC-03 — Acceptance as post-evidence human disposition
 
-Burden: compare assurance cases, workflow/BPM approval, safety cases and agent HITL literature.
+Candidate: MxM distinguishes authorization, execution, verification and Acceptance, with Acceptance reserved to the Principal Operator after evidence.
 
-### NC-04 — Evidence as governance substrate
+Burden: compare directly with assurance/safety cases, BPM/workflow acceptance, engineering change control and agent HITL systems.
 
-MxM may use Evidence as the authoritative bridge between probabilistic agent claims and governed state transitions.
+Status: **SURVIVES NARROWED, PRIOR-ART SEARCH INCOMPLETE.**
 
-Burden: distinguish from tracing, audit logs, event sourcing and provenance.
+## NC-04 — Evidence-governed state transition semantics
 
-### NC-05 — Runtime-harness replacement invariance
+Candidate: MxM does not invent provenance; it specifies which governed state transitions require evidence and how evidence grounds verification and Acceptance.
 
-MxM may sit above heterogeneous runtime harnesses while preserving Mind/Morals/Mission, durable-memory authority, Method contracts, Means policy and Acceptance semantics.
+Burden: map to W3C PROV and demonstrate the additional governance semantics.
 
-Burden: implement or adapt MxM across at least two materially distinct runtimes and pass the same invariant suite.
+Status: **SURVIVES NARROWED, UNPROVEN.**
 
-## Strongest current research direction
+## NC-05 — Normative invariance across runtime harness replacement
 
-NC-05 is the strongest empirical discriminator. Microsoft's provider-flexible Agent Harness makes model-provider portability insufficient. MxM should claim meta-harness status only if it survives replacement of the runtime harness itself.
+Candidate: unlike cross-runtime agent representation alone, MxM preserves normative reasoning/governance semantics while replacing the runtime harness.
 
-The six-M vocabulary is not evidence of novelty.
+Burden: demonstrate over at least two materially different runtimes using a shared conformance suite. Open Agent Specification is mandatory comparator.
+
+Status: **SURVIVES NARROWED; STRONGEST EMPIRICAL CLAIM.**
+
+## Current thesis candidate
+
+MxM's plausible contribution is architectural composition: a normative meta-architecture that separates epistemic posture, authority constraints, mission/identity, persistence authority, procedural obligations and executable capabilities, binds consequential state transitions to evidence and human Acceptance, and preserves those semantics across heterogeneous runtime harnesses.
+
+No originality conclusion is yet warranted.
