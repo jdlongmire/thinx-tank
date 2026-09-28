@@ -24,11 +24,6 @@ infographic. No exceptions. The visual is part of the article, not decoration.
    the site-wide default.
 4. Tags set (2-4, lowercase).
 5. Proofread once on a phone.
-6. No raw TeX: the theme has no math renderer, so `\rightarrow`, `\text`,
-   `\[...\]` blocks and the like render as literal backslash soup.
-   Write equations in fenced code blocks using unicode instead
-   (`->` for arrows, `...` for ellipsis, `?=` for uncertain equality)
-   and define every variable in prose.
 
 ## AI-tells review
 
@@ -59,6 +54,12 @@ have you ever wondered, when it comes to.
   takeaways" onto the end.
 - No moralizing closing paragraph. End on the point, not a sermon.
 - Vary sentence length. Human writing breathes.
+
+**Voice check (first person).** Posts are written by JD as himself: "I",
+"my". Never refer to the author in the third person ("JD's", "JD Longmire",
+"the author" used for self). A third-person self-reference is an instant
+fail: it reads as someone else writing for him. The About page is the one
+place third person is correct.
 
 **The read-aloud test.** Read the draft out loud. If it sounds like a
 keynote, rewrite it until it sounds like a person.
