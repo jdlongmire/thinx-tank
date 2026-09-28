@@ -3,7 +3,7 @@ title: "Decommission by Design"
 date: 2026-09-27
 tags: ["ai-governance", "agents", "architecture"]
 draft: false
-description: "AIOC, JD's AI Operations Center architecture, treats agent decommissioning as a control-plane property: desired-state reconciliation, a registration contract with lifecycle state, and a grant model that revokes. The off switch is not a process. It is architecture."
+description: "AIOC, my AI Operations Center architecture, treats agent decommissioning as a control-plane property: desired-state reconciliation, a registration contract with lifecycle state, and a grant model that revokes. The off switch is not a process. It is architecture."
 hero: "img/posts/aioc-decommission-by-design/hero.png"
 hero_alt: "Navy graphic with amber text reading 'Decommission by design'"
 ---
@@ -44,6 +44,6 @@ The contract runs intent to authenticate to authority to classify to policy to c
 
 The [SOX-for-AI framework](https://blog.thinxai.net/posts/sox-for-ai/) laid out inventory, ownership, controls, and audit as the enterprise posture for agents. Decommissioning is the end of that lifecycle, and the whole argument of this week is that it cannot live in process alone. Process layered over sprawl is what the survey measured: 83% of CIOs without standardized lifecycle management, 47% decommissioning agents in the dark this year.
 
-AIOC is JD's architecture for the other approach. Register the agent with its death criteria. Reconcile declared state against observed state continuously. Revoke by policy. Record the evidence as a property of the workflow. The decommission discipline I described yesterday already exists in that architecture. It is not a form. It is a control plane.
+AIOC is my architecture for the other approach. Register the agent with its death criteria. Reconcile declared state against observed state continuously. Revoke by policy. Record the evidence as a property of the workflow. The decommission discipline I described yesterday already exists in that architecture. It is not a form. It is a control plane.
 
 The fleet will get bigger. Build the control plane before it does.
