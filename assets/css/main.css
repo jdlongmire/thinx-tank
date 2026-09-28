@@ -11,6 +11,9 @@
 
 * { box-sizing: border-box; }
 
+/* never let stray wide content make the page pannable sideways on mobile */
+html, body { overflow-x: clip; }
+
 body {
   margin: 0;
   background: var(--bg);
@@ -226,7 +229,10 @@ h1 { font-size: 2rem; margin-top: 0; }
 .tag-cloud { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.75rem; }
 
 /* post body */
-.post .content { margin-top: 1.5rem; }
+.post .content {
+  margin-top: 1.5rem;
+  overflow-wrap: break-word; /* long bare URLs must wrap, not push the page wide */
+}
 .post .content img { max-width: 100%; height: auto; }
 .post .content pre {
   background: var(--chip);
