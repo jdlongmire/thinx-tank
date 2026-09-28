@@ -17,3 +17,7 @@ title = 'Thinx-Tank'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = false
+
+[params.analytics]
+  scriptURL = 'https://analytics.thinxai.net/script.js'
+  websiteID = 'b7cfc1ca-94d3-43a8-8e7e-e3772603d806'
