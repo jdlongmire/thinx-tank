@@ -50,4 +50,7 @@
 {{ with .Site.Params.analytics }}
 <script defer src="{{ .scriptURL }}" data-website-id="{{ .websiteID }}" data-domains="blog.thinxai.net" data-do-not-track="true"></script>
 {{ end }}
+{{ with .Site.Params.cloudflareAnalytics }}
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{ .token }}"}'></script><!-- End Cloudflare Web Analytics -->
+{{ end }}
 {{ end }}
