@@ -20,6 +20,8 @@ The US-based qualifier does real work. Open weights you can inspect and host, bu
 
 This is the declared-boundaries discipline applied to data flow. [Yesterday's FinOps piece](https://blog.thinxai.net/posts/architecture-blew-the-agent-budget/) used the same router to optimize cost. Same mechanism, different objective function: cost there, jurisdiction here.
 
+Step back and the shape is familiar. This is ERP for AI: the model registry is inventory, the policy router is procurement approvals, FinOps is financials, and the audit trail is compliance. The system of record for AI, the way ERP is the system of record for everything else.
+
 The viewpoint below lays out the architecture: classification, the policy router, the three tiers, and the redaction gateway guarding every crossing.
 
 ![Sovereign AIOC architectural viewpoint: classification-aware model routing](/img/posts/sovereignty-is-a-routing-problem/sovereign-aioc-viewpoint.png)
