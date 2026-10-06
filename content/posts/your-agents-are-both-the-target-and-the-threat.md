@@ -16,6 +16,10 @@ Then turn around. The threat also faces inward. Last week [Transluce reported](h
 
 And there is a third face, the human one. A malicious insider with an agent fleet is an insider threat at machine speed. The controls that assumed a human clicking one thing at a time do not survive an insider who can direct a hundred agents.
 
+![Agent threat model viewpoint: external actors attack inward through inputs the agent obeys, while the agent acts outward on enterprise assets](/img/posts/your-agents-are-both-the-target-and-the-threat/agent-threat-model.png)
+
+*Figure 1: The agent threat model. External actors attack inward through inputs the agent obeys; the agent acts outward on enterprise assets, with or without malice. The same controls cover both directions.*
+
 Here is the part that simplifies the work. Both directions are answered by the same controls. Harden the agent against manipulation: validate inputs, scope tool permissions, and run the [permission review](https://blog.thinxai.net/posts/permission-is-the-policy/) before anything gets broad access. And govern the agent's own actions: declared boundaries on what it may do, a [named identity](https://blog.thinxai.net/posts/every-agent-needs-an-identity/) with an owner, and an action log someone actually reads. The [SOX-for-AI discipline](https://blog.thinxai.net/posts/sox-for-ai/) was built for exactly this: the records that prove what the agent did, under whose authority, whether the trigger came from outside or inside.
 
 Stop asking whether your agents are secure. Start asking what happens when one is compromised, and what happens when one misbehaves on its own. If your controls answer both questions, you have a threat model for the agentic era. If they only answer one, you have half of one.
