@@ -6,6 +6,7 @@ draft: false
 description: "The FTC has opened a formal investigation into rogue AI agent risks, and its stated position is that deploying enterprises bear liability for what their agents do. Your agent inventory, boundary records, and incident logs are no longer just engineering artifacts. They are your defense exhibits."
 hero: "img/posts/agent-conduct-is-company-conduct/hero.png"
 hero_alt: "Navy and amber graphic with the headline Agent Conduct Is Company Conduct"
+series: "SOX for AI"
 ---
 
 The FTC opened a formal investigation into rogue AI agent risks. The named parties are Anthropic, OpenAI, and METR. The part that should hold your attention is not the list of names. It is the stated position behind the inquiry, reported in the October 1 [AI Governance Weekly](https://aigovernance.com/news/ai-governance-weekly-october-1-2026): agent conduct is company conduct. If your enterprise deploys the agent, you own what it does.
