@@ -22,7 +22,9 @@ title = 'Thinx-Tank'
   scriptURL = 'https://analytics.thinxai.net/script.js'
   websiteID = 'b7cfc1ca-94d3-43a8-8e7e-e3772603d806'
 
-# Temporary fallback while the self-hosted Umami origin is down (2026-10-02).
-# Remove this section and the beacon tag in head.html once Umami is back.
+# Cloudflare Web Analytics beacon (kept permanently alongside Umami as of
+# 2026-10-06 per JD: complements Umami with a viewable dashboard + Core Web
+# Vitals; label the source when reporting since the two systems count
+# slightly differently). Umami remains the system of record.
 [params.cloudflareAnalytics]
   token = 'a668674eeabc465d95a6c43fbc8834fe'
