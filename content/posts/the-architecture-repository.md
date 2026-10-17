@@ -76,3 +76,5 @@ The [first piece](https://blog.thinxai.net/posts/agentic-enterprise-architecture
 ---
 
 **Follow-up:** The series continues in [Own the Core. Synthesize the Rest.](https://blog.thinxai.net/posts/own-the-core-synthesize-the-rest/), on why this repository is the core an EA org must own, and why everything around it should be synthesized from open source parts rather than bought as a COTS platform that holds the record.
+
+**Update:** This reference structure is now a working template: [ea-repository-template](https://github.com/jdlongmire/ea-repository-template) on GitHub, with the layout verifier, the compiled policy, and the worked example running in CI. Use it as a template and the numbered baselines, the schemas, and the ratification map arrive with the copy.
