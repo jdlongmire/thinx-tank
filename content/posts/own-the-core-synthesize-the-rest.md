@@ -61,3 +61,8 @@ That last clause is where the trend actually points. An agent cannot work a COTS
 When the COTS proposal is on the table, and it will be, ask two questions of it. What does the bucket buy that we cannot synthesize from the shelf when a named need actually arrives? And what do we surrender permanently in exchange? The first question produces a feature list, and feature lists can be argued. The second produces one answer: the record, the history, and the right to recompose our own platform without permission.
 
 Own the core. Synthesize the rest. Replace any part of the surroundings whenever a better part appears, and never ask a landlord for the keys to your own architecture.
+
+
+---
+
+**Follow-up:** The series continues in [The Governed Control System](https://blog.thinxai.net/posts/the-governed-control-system/), on why agentic enterprise architecture is best framed as a governed control system for the digital ecosystem, with SARS as its operating model and this record at its center.
