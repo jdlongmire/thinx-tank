@@ -76,3 +76,7 @@ Third, coverage. A small EA org cannot manually serve every stakeholder the func
 Enterprise architecture's reputation problem was never its discipline. Strategy, architecture, roadmaps, and standards, applied at the enterprise, systems, and solutions levels, is the right model, and TOGAF is a sound method for working it. The problem was the medium (documents that decay on contact with reality) and the operation (manual, periodic, and therefore always behind). A new org inherits neither by necessity. Settle the model, hold it as code, and operate it agentically with humans on the ratification gate, and the practice compounds instead of decaying.
 
 That is the offer in front of every EA org standing up right now: not a better framework, but a discipline that finally runs at the speed of the estate it describes.
+
+---
+
+**Follow-up:** The concrete companion to this piece is [The Architecture Repository](https://blog.thinxai.net/posts/the-architecture-repository/), which lays out the Git repository the model runs on: numbered baselines, the four focus areas as folders at every level, schemas and policies checked by CI, and the ratification map written as CODEOWNERS.
