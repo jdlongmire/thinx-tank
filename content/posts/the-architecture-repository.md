@@ -72,3 +72,7 @@ This is also where the repository doubles as the distribution channel for the ag
 Do not build the whole tree on day one. Start with 00-meta-model and the enterprise level: the schemas, the four enterprise folders, CODEOWNERS naming the board, branch protection on. Admit systems as they are actually modeled, one work package at a time. Let solutions arrive through delivery work rather than by migration project. And resist importing the old document archive wholesale: the archive stays where it is as read-only history, and the repository models the estate forward from the current state. An architecture repository that begins by trying to describe everything describes nothing well.
 
 The [first piece](https://blog.thinxai.net/posts/agentic-enterprise-architecture/) in this series argued the discipline was never the problem; the medium and the manual operation were. This is the medium, concretely: one repository, numbered baselines, checked structure, human ratification written into the tooling. An EA org that stands this up at the start does not have an architecture documentation problem to fix later, because it never created one.
+
+---
+
+**Follow-up:** The series continues in [Own the Core. Synthesize the Rest.](https://blog.thinxai.net/posts/own-the-core-synthesize-the-rest/), on why this repository is the core an EA org must own, and why everything around it should be synthesized from open source parts rather than bought as a COTS platform that holds the record.
