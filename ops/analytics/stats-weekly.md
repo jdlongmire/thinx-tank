@@ -1,10 +1,10 @@
 # Thinx-Tank weekly stats
 
 Format version: 1
-Week start: 2026-10-05
-Week end: 2026-10-11
+Week start: 2026-10-12
+Week end: 2026-10-18
 Timezone: America/Chicago
-Generated at: 2026-10-12T06:00:08-05:00
+Generated at: 2026-10-19T06:00:08-05:00
 Website: blog.thinxai.net
 
 Coverage: Recorded events only; tracking outages and blocked tracking may reduce counts.
@@ -13,42 +13,42 @@ Coverage: Recorded events only; tracking outages and blocked tracking may reduce
 
 | Metric | Count |
 | --- | ---: |
-| Pageviews | 57 |
-| Unique visitors | 32 |
-| Visits | 37 |
+| Pageviews | 97 |
+| Unique visitors | 52 |
+| Visits | 64 |
 
 ## Top 10 pages
 
 | Path | Views |
 | --- | ---: |
-| / | 12 |
-| /posts/every-agent-needs-an-identity/ | 3 |
-| /posts/permission-is-the-policy/ | 3 |
-| /posts/standing-privilege-is-dead/ | 3 |
-| /posts/subpoena-is-the-checklist/ | 3 |
-| /posts/your-agents-are-both-the-target-and-the-threat/ | 3 |
-| /posts/agent-conduct-is-company-conduct/ | 2 |
-| /posts/blocker-is-not-control-plane/ | 2 |
-| /posts/your-newest-coworker-has-an-email-address/ | 2 |
-| /tags/ai-governance/ | 2 |
+| /posts/agentic-enterprise-architecture/ | 13 |
+| / | 11 |
+| /posts/the-architecture-repository/ | 7 |
+| /posts/own-the-core-synthesize-the-rest/ | 6 |
+| /posts/your-code-is-not-the-moat-anymore/ | 6 |
+| /posts/bring-your-own-agent/ | 5 |
+| /posts/the-governed-control-system/ | 3 |
+| /about/ | 2 |
+| /portfolio/ | 2 |
+| /posts/done-means-accounted-for/ | 2 |
 
 ## Top 10 referrers
 
 | Referrer | Views |
 | --- | ---: |
-| linkedin.com | 7 |
-| com.linkedin.android | 1 |
+| linkedin.com | 17 |
+| github.com | 1 |
 
 ## Day-by-day pageviews
 
 | Date | Pageviews |
 | --- | ---: |
-| 2026-10-05 | 10 |
-| 2026-10-06 | 19 |
-| 2026-10-07 | 8 |
-| 2026-10-08 | 5 |
-| 2026-10-09 | 7 |
-| 2026-10-10 | 7 |
-| 2026-10-11 | 1 |
+| 2026-10-12 | 17 |
+| 2026-10-13 | 1 |
+| 2026-10-14 | 8 |
+| 2026-10-15 | 8 |
+| 2026-10-16 | 1 |
+| 2026-10-17 | 50 |
+| 2026-10-18 | 12 |
 
 Human-Curated, AI-Enabled (HCAE)
