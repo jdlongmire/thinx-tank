@@ -1,0 +1,34 @@
+---
+title: "The Passport Is Not the Decision"
+date: 2026-10-20
+tags: [agents, governance, identity]
+description: "ServiceNow's AI Passport gives agents a signed credential checked at runtime. That proves a scope was authorized. It does not prove the scope was narrow, current, or checked everywhere the agent can act."
+hero: "img/posts/passport-is-not-the-decision/hero.png"
+hero_alt: "Navy and amber hero graphic with bold text: The Passport Is Not the Decision"
+draft: false
+---
+
+On October 15, ServiceNow announced AI Passport in [ServiceNow's October 15 announcement](https://www.hpcwire.com/bigdatawire/this-just-in/servicenow-unveils-ai-passport-to-control-ai-agent-permissions/). The idea is plain. Each agent and each Model Context Protocol server gets a cryptographically signed credential that states its authorized scope. Enforcement points check that credential at runtime, at each step of a multi-agent workflow. Inside scope, the agent works freely. Outside scope, the response can be graduated: redirect, restrict, reconnect with proper context, or terminate with a kill switch at machine speed.
+
+The passport is issued by ServiceNow's Control Tower and, in the announcement's words, grounded in live business context through the Configuration Management Database, governance and compliance policies, and workflow approvals. It is built on open specifications, so other governance products and identity providers can issue and verify credentials. NVIDIA is the design and launch partner, with enforcement in its OpenShell runtime. ServiceNow expects AI Passport, shadow AI detection, and AI Cost Management to be available in the fourth quarter of 2026. Those availability and capability claims are the vendor's, stated at announcement. I am treating them that way.
+
+The useful shift here is real. For third-party agents in particular, ServiceNow says the passport creates a verifiable record instead of relying on the agent's own claims about its permissions. That is progress over self-attestation. I argued the identity half of this in [Every Agent Needs an Identity](https://blog.thinxai.net/posts/every-agent-needs-an-identity/): an agent with no named identity cannot be owned, scoped, or shut down. A signed credential is a stronger form of that identity. It can be checked by a machine, at the moment of action, without trusting the agent's description of itself.
+
+But a signature answers one question only. Was this scope authorized by the issuer named in the credential, and has it been altered since? It does not answer the questions that decide whether the work is safe. Was the scope narrow enough? Was it based on current facts? Does every path the agent can take actually check it?
+
+Start with scope quality. A passport that authorizes an agent to read and write across a whole department will verify cleanly at every step. The cryptography will be correct. The audit record will be complete. The scope will still be wrong. Signing a broad grant does not make it a good grant. It makes it a grant that is now enforced faithfully, with higher confidence, at machine speed. I made the related point in [The Permission Is the Policy](https://blog.thinxai.net/posts/permission-is-the-policy/): the permission itself carries the intent, so the review has to happen on the permission, not around it. A passport moves that review upstream, to issuance. If issuance is a rubber stamp, the passport certifies the stamp.
+
+Next, the grounding. ServiceNow grounds issuance in the CMDB, policy records, and approvals. That is the right set of sources, and it is also the set most shops know is incomplete. Assets missing from the CMDB, entitlements that no longer match the job, approvals given for a pilot that quietly became production. A passport issued from stale records does not fix the records. It converts stale facts into a signed credential that enforcement points then trust. The failure mode changes shape. Before, a person might have questioned a doubtful entitlement. Now a verifier checks a signature and lets the action through.
+
+Then coverage. A runtime check only governs the steps that pass through a checker. An agent that reaches a tool through a checked MCP server is inside the system. An agent that calls the same tool through a direct API key, a stored token in a script, or a second server nobody registered is outside it, passport or not. The announcement also covers discovery, with shadow AI detection and connectors meant to find what is running. Discovery and enforcement are separate jobs, and both have to be complete before the passport means much. A partial map with strong checks on the mapped part is still a partial system.
+
+None of this makes the passport a bad idea. It makes it a component, not a decision. The decision is the scope, written by people, based on records they maintain, for a population of agents and servers they have actually found. So before I would trust any passport system, mine or a vendor's, I would run four tests.
+
+1. Issuance test. Pick one passport and trace it back to its source records. Who approved this scope, when, based on which CMDB and policy entries? If the trace ends at a form nobody can explain, issuance is ceremony.
+2. Narrowing test. Follow one delegated step. ServiceNow says scoped delegation narrows at each step. Verify it. The sub-agent should hold less than its parent, with a shorter life, and revoking the parent should end the child. I laid out that chain in [Delegation Is Not Inheritance](https://blog.thinxai.net/posts/delegation-is-not-inheritance/).
+3. Coverage test. List every way the agent can reach a tool or a data store, then mark which ways check a credential. Any unmarked path is the real policy, whatever the passport says.
+4. Revocation test. Revoke one passport in a running workflow and time it. Precision revocation is the claim. The old credential should fail at the next check, in-flight work should stop or complete under a stated rule, and the audit record should show both.
+
+Those tests sit on ground I have covered from other sides. [Standing Privilege Is Dead](https://blog.thinxai.net/posts/standing-privilege-is-dead/) argued for credentials that exist just in time and expire. A passport that lives too long, or renews without a fresh look at scope, recreates standing privilege in signed form. Expiry and reissuance are part of the decision, not administrative detail.
+
+Buy the verification if it fits your shop. Signed, checkable, revocable scope is better than an agent asserting its own permissions, and better than reading audit logs after the work is done. Just do not let the strength of the check settle the argument about what was checked. The hard meeting is still the issuance meeting: what this agent may do, on which systems, for how long, and who signs for it. A passport can carry that decision to every enforcement point in the workflow. It cannot make the decision for you.
