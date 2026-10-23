@@ -1,6 +1,6 @@
 ---
 title: "Agentic AI Ecosystem Reference Architecture"
-date: 2026-10-23
+date: 2026-10-23T09:47:00-05:00
 tags: [ai-agents, enterprise-architecture, ai-governance]
 description: "My reference architecture for an enterprise agentic AI ecosystem: six layers under an MxM governance and enforcement control plane, memory as infrastructure, an epistemic assurance framework, and trusted outcomes as the bottom line."
 hero: "img/posts/agentic-ai-ecosystem-reference-architecture/hero.png"
