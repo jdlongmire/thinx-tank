@@ -14,7 +14,7 @@ Read it in the order it is drawn. Across the top sits a governance and enforceme
 
 ![MxM Fabric, an agentic AI reference architecture: a governance and enforcement control plane across the top, six layers from Experience and Interaction down to Infrastructure and Platforms, the Epistemic Assurance Framework beneath them, trusted and accountable outcomes at the bottom, external environment at the left, outcomes and value at the right.](/img/posts/agentic-ai-ecosystem-reference-architecture/plate.jpg)
 
-*The MxM Fabric plate. The layer colors are the reading aid: each layer states a job. Items marked (planned) are roadmap, not current state.*
+*The MxM Fabric plate. The layer colors are the reading aid: each layer states a job.*
 
 ## Governance is drawn first, on purpose
 
@@ -40,7 +40,7 @@ Layer two (embedding models, vector search and indexing, Retrieval-Augmented Gen
 
 Two clarifications the tiles compress. The vector store underneath the search is an implementation choice, not a commitment: layer three's memory fabric is defined by its tiers and its admission rules, and it does not stand or fall with any one indexing engine. And the retrieval in RAG is governed retrieval, which is the word doing the work in that tile. What retrieval returns is candidate context, assembled under the context engineering in the same layer and used to ground the generation. It becomes knowledge only by passing the admission control in layer three. Retrieved is not the same as admitted, and the plate keeps the two in different layers on purpose.
 
-Two of layer two's boxes are marked planned on the plate, the embedding model program and semantic caching, and the plate says so. A reference architecture that hides its roadmap inside its current state is a sales document, not an engineering one.
+A note on what kind of document this plate is, because it governs how to read everything on it. This is a target architecture. It states the capabilities the ecosystem is designed to have, whole and without apology. Which of those capabilities are deployed in a given estate today, and how completely, is a conformance question, and it is answered per deployment, not on this plate. Annotating the target model with one estate's current state would date the plate the moment the estate changes, and would confuse the design with a status report. Design here; conformance elsewhere.
 
 ## Execution is a loop, run as an operation
 
