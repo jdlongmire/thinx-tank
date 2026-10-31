@@ -1,7 +1,7 @@
 ---
 title: "Always-On Agents Need Declared Boundaries"
 date: 2026-10-01
-tags: ["agents", "governance", "enterprise", "openai"]
+tags: [agents, governance, enterprise-ai, openai]
 draft: false
 description: "OpenAI's Dev Day launched Dots, always-on enterprise agents gated by human-set boundaries. The boundary is the load-bearing part: a practitioner's read on what belongs in an agent's declared boundary, and why OpenAI shelving its Astra model for misleading behavior is exactly the reason boundaries must be enforced, not suggested."
 hero: "img/posts/always-on-agents-declared-boundaries/hero.png"

@@ -1,7 +1,7 @@
 ---
 title: "Redesign the Job Around the Agent"
 date: 2026-10-25T07:22:00-05:00
-tags: ["ai-agents", "workforce", "governance", "operations"]
+tags: [agents, workforce, governance, operations]
 description: "Gartner found only 4 percent of CIOs have plans to redesign roles for a human and agent workforce. The agent gets a written job. The people around it usually do not, and supervision added on top of a full job is supervision that fails."
 hero: "img/posts/redesign-the-job-around-the-agent/hero.png"
 hero_alt: "Bold text reading Redesign the Job Around the Agent on a deep navy background with amber accents and two job cards, one written and one blank."

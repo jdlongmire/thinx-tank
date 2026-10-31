@@ -1,7 +1,7 @@
 ---
 title: "Own the Core. Synthesize the Rest."
 date: 2026-10-17
-tags: [enterprise-architecture, ai-agents, open-source]
+tags: [enterprise-architecture, agents, open-source]
 description: "Part three of the agentic EA series. The architecture repository is the core an EA org must own. Everything around it can be synthesized from open source parts. The expensive option is the other one: conceding the core to a COTS platform."
 hero: "img/posts/own-the-core-synthesize-the-rest/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: Own the Core. Synthesize the Rest."

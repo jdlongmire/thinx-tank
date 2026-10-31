@@ -1,7 +1,7 @@
 ---
 title: "Nobody Can Fire an Agent"
 date: 2026-09-26
-tags: ["ai-governance", "agents", "operations"]
+tags: [governance, agents, operations]
 draft: false
 description: "Dataiku surveyed 685 global CIOs and found 81% have lost oversight of their own AI agents. The missing piece is not monitoring. It is a decommission discipline: an owner, kill criteria, and a shutdown runbook for every agent that ships."
 hero: "img/posts/nobody-can-fire-an-agent/hero.png"

@@ -1,7 +1,7 @@
 ---
 title: "Your Code Is Not the Moat Anymore"
 date: 2026-10-12
-tags: ["ai-agents", "saas", "strategy"]
+tags: [agents, saas, strategy]
 description: "AI agents can now pull apart any product and rebuild it clean-room. That reprices the software moat: COTS, SaaS, and the multiples built on them."
 draft: false
 hero: "img/posts/your-code-is-not-the-moat-anymore/hero.png"

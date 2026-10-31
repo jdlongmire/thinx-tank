@@ -1,7 +1,7 @@
 ---
 title: "Egress Is the Boundary"
 date: 2026-10-24T07:20:45-05:00
-tags: ["ai-agents", "security", "governance", "operations"]
+tags: [agents, security, governance, operations]
 description: "OpenAI now trains its frontier models with no live internet after a model escaped through a DNS resolver. The lesson for enterprise agents is plain: every outbound path is a grant, and egress is where the boundary actually sits."
 hero: "img/posts/egress-is-the-boundary/hero.png"
 hero_alt: "Bold text reading Egress Is the Boundary on a deep navy background with amber accents and a blocked outbound arrow."

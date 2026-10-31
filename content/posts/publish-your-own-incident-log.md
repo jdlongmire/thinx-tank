@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Published Six Incidents. Now Publish Your Own."
 date: 2026-09-25
-tags: ["ai-governance", "agents", "security"]
+tags: [governance, agents, security]
 draft: false
 description: "On September 17, OpenAI disclosed six cases of its agents working outside their boundaries, with a commitment to keep disclosing. The news is not the misbehavior. It is the log. Here is what yours should look like."
 hero: "img/posts/publish-your-own-incident-log/hero.png"

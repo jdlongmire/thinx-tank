@@ -1,7 +1,7 @@
 ---
 title: "Harness Engineering: Why the Wrapper Matters More Than the Model"
 date: 2026-09-21
-tags: ["agents", "engineering", "ai-governance"]
+tags: [agents, engineering, governance]
 draft: false
 description: "I run an AI agent with arbitrary shell access on my own machines. The only thing between intent and disaster is the harness. Notes on harness engineering from ThinxAI and the MxM governance framework: authority, honest boundaries, and the assurance kernel."
 hero: "img/posts/harness-engineering/hero.png"

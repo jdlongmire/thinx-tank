@@ -1,7 +1,7 @@
 ---
 title: "AI Operations Center, a Human Analogy"
 date: 2026-10-04
-tags: ["aioc", "ai-operations", "governance"]
+tags: [aioc, operations, governance]
 description: "There is a noticeable lack of enterprise strategy and architecture for AI Operations. The AI Operations Center fills it: five functions, five human analogies, and what the AIOC is not."
 hero: "img/posts/ai-operations-center-human-analogy/hero.png"
 hero_alt: "AI Operations Center: A Human Analogy"

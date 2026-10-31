@@ -1,7 +1,7 @@
 ---
 title: "Imago Humana"
 date: 2026-10-26T07:23:00-05:00
-tags: [ai-alignment, theology, worldview, ai-agents]
+tags: [ai-alignment, theology, worldview, agents]
 description: "AI is made in the image of man, not in the image of God. That is why no model is neutral: every agent ships its makers' doctrine of man, through the corpus, the constitution, the harness, and the operator."
 hero: "img/posts/imago-humana/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: Imago Humana, and the line: Made in the image of man."

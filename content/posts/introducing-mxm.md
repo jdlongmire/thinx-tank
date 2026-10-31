@@ -1,7 +1,7 @@
 ---
 title: "MxM: Six Surfaces That Govern an AI Aide"
 date: 2026-09-28
-tags: ["mxm", "ai-agents", "governance"]
+tags: [mxm, agents, governance]
 draft: false
 description: "Everyone is building better AI brains. I built the body around one: MxM, the multi-mode meta-harness that gives an AI aide posture, constraints, and a human will behind it."
 hero: "img/posts/introducing-mxm/hero.png"

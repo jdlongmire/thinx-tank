@@ -1,7 +1,7 @@
 ---
 title: "The Permission Is the Policy"
 date: 2026-10-04
-tags: ["ai-agents", "permissions", "enterprise-security"]
+tags: [agents, permissions, enterprise-security]
 draft: false
 description: "Apple is tightening macOS Full Disk Access because AI agents changed what a permission grant means. A backup tool reads quietly in the background. An agent reads, interprets, connects what it finds to another system, and acts. The grant you make once becomes the policy the agent runs under forever."
 hero: "img/posts/permission-is-the-policy/hero.png"

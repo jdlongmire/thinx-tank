@@ -1,7 +1,7 @@
 ---
 title: "Standing Privilege Is Dead"
 date: 2026-10-07
-tags: ["ai-agents", "identity", "zero-standing-privilege", "enterprise-security"]
+tags: [agents, identity, zero-standing-privilege, enterprise-security]
 draft: false
 description: "At Navigate 2026, SailPoint announced Zero Standing Privilege for people, service accounts, and AI agents: just-in-time provisioning with conditions, replacing always-on access. With 79% of enterprises running agents in production and 2% governing them, the identity I wrote about two days ago is only half the job. The other half is taking away the keys."
 hero: "img/posts/standing-privilege-is-dead/hero.png"

@@ -1,7 +1,7 @@
 ---
 title: "Decommission by Design"
 date: 2026-09-27
-tags: ["ai-governance", "agents", "architecture"]
+tags: [governance, agents, architecture]
 draft: false
 description: "AIOC, my AI Operations Center architecture, treats agent decommissioning as a control-plane property: desired-state reconciliation, a registration contract with lifecycle state, and a grant model that revokes. The off switch is not a process. It is architecture."
 hero: "img/posts/aioc-decommission-by-design/hero.png"

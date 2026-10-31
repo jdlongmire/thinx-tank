@@ -1,7 +1,7 @@
 ---
 title: "Agent Conduct Is Company Conduct"
 date: 2026-10-06
-tags: ["ai-agents", "governance", "liability", "control-plane"]
+tags: [agents, governance, liability, control-plane]
 draft: false
 description: "The FTC has opened a formal investigation into rogue AI agent risks, and its stated position is that deploying enterprises bear liability for what their agents do. Your agent inventory, boundary records, and incident logs are no longer just engineering artifacts. They are your defense exhibits."
 hero: "img/posts/agent-conduct-is-company-conduct/hero.png"

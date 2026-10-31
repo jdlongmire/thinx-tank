@@ -36,6 +36,14 @@
       : "<li>No posts match &ldquo;" + esc(q) + "&rdquo;.</li>";
   }
   input.addEventListener("input", function(e) { render(e.target.value); });
+  var q0 = new URLSearchParams(window.location.search).get("q");
+  if (q0) {
+    input.value = q0;
+    var tries = 0;
+    var iv = setInterval(function() {
+      if (pages.length || ++tries > 40) { clearInterval(iv); render(q0); }
+    }, 100);
+  }
 })();
 </script>
 {{ end }}

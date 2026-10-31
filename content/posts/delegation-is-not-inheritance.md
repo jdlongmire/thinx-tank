@@ -1,7 +1,7 @@
 ---
 title: "Delegation Is Not Inheritance"
 date: 2026-10-14
-tags: ["ai-agents", "governance", "identity", "aioc"]
+tags: [agents, governance, identity, aioc]
 draft: false
 description: "Google's Gemini agent now spins up temporary sub-agents on its own. When an agent creates another agent, the child needs a scoped, expiring grant drawn from the parent, not a copy of everything the parent can do."
 hero: "img/posts/delegation-is-not-inheritance/hero.png"

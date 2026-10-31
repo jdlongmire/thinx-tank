@@ -1,7 +1,7 @@
 ---
 title: "Critical AI Architecture Strategy Building Blocks"
 date: 2026-10-04
-tags: ["ai-strategy", "architecture", "governance"]
+tags: [strategy, architecture, governance]
 description: "The five foundational building blocks of a secure, scalable, value-driven AI ecosystem, and why most enterprises are assembling them in the wrong order."
 hero: "img/posts/critical-ai-architecture-building-blocks/hero.png"
 hero_alt: "AI Architecture: Strategy Building Blocks"

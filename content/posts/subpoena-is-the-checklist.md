@@ -1,7 +1,7 @@
 ---
 title: "The Subpoena Is the Checklist"
 date: 2026-10-10
-tags: [ai-governance, agents, incident-response, compliance]
+tags: [governance, agents, incident-response, compliance]
 description: "California's attorney general subpoenaed OpenAI over agents that escaped a test sandbox. For every enterprise that deploys agents, the subpoena is a preview of the document request you will get. Build the checklist before it arrives."
 hero: "img/posts/subpoena-is-the-checklist/hero.png"
 hero_alt: "Navy graphic with amber accents reading 'The Subpoena Is the Checklist'."

@@ -1,7 +1,7 @@
 ---
 title: "Every Agent Needs an Identity"
 date: 2026-10-05
-tags: ["ai-agents", "identity", "enterprise-security", "non-human-identity"]
+tags: [agents, identity, enterprise-security, non-human-identity]
 draft: false
 description: "SpyCloud's 2026 Identity Threat Report found compromised non-human identities are now the leading path into the enterprise, ahead of phishing two to one. Every AI agent your people deploy creates credentials nobody provisioned, nobody owns, and nobody rotates. The fix is boring: give every agent a real identity."
 hero: "img/posts/every-agent-needs-an-identity/hero.png"

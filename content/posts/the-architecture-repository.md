@@ -1,7 +1,7 @@
 ---
 title: "The Architecture Repository"
 date: 2026-10-17
-tags: [enterprise-architecture, ai-agents, architecture-as-code]
+tags: [enterprise-architecture, agents, architecture-as-code]
 description: "The follow-up to Agentic Enterprise Architecture: the concrete Git repository an EA org actually runs on. Numbered baselines, the four focus areas as folders at every level, schemas and policies checked by CI, and a ratification map written as CODEOWNERS."
 hero: "img/posts/the-architecture-repository/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: The Architecture Repository"

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Enterprise Architecture"
 date: 2026-10-17
-tags: [enterprise-architecture, ai-agents, togaf]
+tags: [enterprise-architecture, agents, togaf]
 description: "A newly stood up enterprise architecture org gets one chance to choose its operating model before document habits harden. Mine runs on Strategy, Architecture, Roadmaps, and Standards at three levels, holds its artifacts as code, and is operated by agents under human ratification."
 hero: "img/posts/agentic-enterprise-architecture/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: Agentic Enterprise Architecture"

@@ -1,7 +1,7 @@
 ---
 title: "Names Are Governance"
 date: 2026-10-02
-tags: ["policy", "ai-governance", "terminology"]
+tags: [policy, governance, terminology]
 draft: false
 description: "The White House renamed artificial intelligence to 'Super Intelligence' in federal documents. The rename commits a category error: 'artificial' names origin, 'super' names a capability claim. The honest term is synthetic intelligence."
 hero: "img/posts/names-are-governance/hero.png"

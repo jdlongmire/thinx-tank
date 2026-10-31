@@ -1,7 +1,7 @@
 ---
 title: "Stop Asking for Authority. Build the Gates."
 date: 2026-10-11
-tags: ["cio-governance", "ai-accountability", "control-plane"]
+tags: [cio-governance, accountability, control-plane]
 description: "Ninety-one percent of North American CIOs say AI adoption is outpacing governance, and 92 percent expect to answer for breaches caused by tools they never bought. Authority is not coming back. The control plane is the substitute."
 hero: "img/posts/stop-asking-for-authority/hero.png"
 hero_alt: "Navy and amber graphic reading 'Stop Asking for Authority. Build the Gates.'"

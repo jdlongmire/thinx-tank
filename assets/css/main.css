@@ -63,6 +63,13 @@ body {
   font-size: 0.95rem;
 }
 .site-header nav a:hover { color: var(--accent); }
+.nav-search { display: inline-flex; margin-left: 1.25rem; vertical-align: middle; }
+.nav-search input {
+  font: inherit; font-size: 0.9rem; color: var(--ink);
+  background: var(--chip); border: 1px solid var(--line); border-radius: 999px;
+  padding: 0.3rem 0.7rem; width: 9.5rem;
+}
+.nav-search input:focus { outline: 2px solid var(--amber); background: var(--bg); width: 12rem; }
 
 /* main */
 main.wrap { padding-top: 2rem; padding-bottom: 3rem; }
@@ -309,4 +316,5 @@ blockquote {
   h1 { font-size: 1.6rem; }
   .site-header .wrap { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .site-header nav a { margin-left: 0; margin-right: 1rem; }
+  .nav-search { margin-left: 0; margin-top: 0.4rem; display: flex; }
 }

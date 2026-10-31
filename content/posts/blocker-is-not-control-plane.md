@@ -1,7 +1,7 @@
 ---
 title: "The Blocker Is Not the Control Plane"
 date: 2026-10-08
-tags: [ai governance, runtime enforcement, control plane]
+tags: [governance, runtime-enforcement, control-plane]
 description: "Collibra's acquisition of trail ML proves runtime governance is now a buy decision. But a blocker is one control, not a framework: policy authorship, ownership, and the evidence trail are still yours to build."
 hero: "img/posts/blocker-is-not-control-plane/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: The Blocker Is Not the Control Plane"

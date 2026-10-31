@@ -1,7 +1,7 @@
 ---
 title: "Your Agents Are Both the Target and the Threat"
 date: 2026-10-06
-tags: ["ai-agents", "security", "governance"]
+tags: [agents, security, governance]
 description: "AI agents face attacks from the outside and become the attacker from the inside. Your threat model needs both directions, and the same controls answer both."
 draft: false
 hero: "img/posts/your-agents-are-both-the-target-and-the-threat/hero.png"

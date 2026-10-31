@@ -1,7 +1,7 @@
 ---
 title: "We Need SOX for AI"
 date: 2026-09-22
-tags: ["ai-governance", "enterprise-ai", "compliance"]
+tags: [governance, enterprise-ai, compliance]
 draft: false
 series: "SOX for AI"
 description: "Sarbanes-Oxley did not fix lying; it fixed the structure. AI needs the same treatment: named humans, documented controls, independent review, and consequences."

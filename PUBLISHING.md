@@ -22,8 +22,28 @@ infographic. No exceptions. The visual is part of the article, not decoration.
 3. `description` written: 1-2 sentences in front matter. This becomes the
    search-result snippet and the social preview text; never ship a post on
    the site-wide default.
-4. Tags set (2-4, lowercase).
+4. Tags set (2-4, lowercase), drawn from the tag vocabulary below.
+   Do not invent a new tag when an existing one covers the post;
+   variants fragment the tag pages (ai-agents vs agents was the
+   standing example until the 2026-10-31 cleanup).
 5. Proofread once on a phone.
+
+## Tag vocabulary (canonical, 2026-10-31)
+
+agents, governance, operations, security, identity,
+enterprise-architecture, enterprise-ai, architecture, aioc,
+enterprise-security, control-plane, ai-architecture, ai-finops,
+incident-response, strategy, audit, meta, compliance, liability,
+togaf, agenticops, oversight, netops, llm, servicenow, openai,
+accountability, byoa, credentials, non-human-identity, gitops,
+engineering, detection, ai-alignment, theology, worldview, mxm,
+policy, terminology, open-source, permissions, workforce,
+containment, sovereignty, zero-standing-privilege, cio-governance,
+change-management, architecture-as-code, agi, ai-philosophy,
+defense, runtime-enforcement
+
+A genuinely new topic may add one tag; add it to this list in the
+same commit.
 
 ## AI-tells review
 

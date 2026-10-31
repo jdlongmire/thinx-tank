@@ -1,7 +1,7 @@
 ---
 title: "The Governed Control System"
 date: 2026-10-17
-tags: [enterprise-architecture, ai-agents, governance]
+tags: [enterprise-architecture, agents, governance]
 description: "Part four of the agentic EA series. Agentic enterprise architecture is a governed control system for the digital ecosystem: SARS is its operating model, the architecture repository is its record, and the loop between evidence and ratified change is the point."
 hero: "img/posts/the-governed-control-system/hero.png"
 hero_alt: "Navy and amber hero graphic with bold text: The Governed Control System, beside a circular loop marked Ratify."

@@ -1,7 +1,7 @@
 ---
 title: "Before AI Starts Governing Us"
 date: 2026-09-22
-tags: ["ai-governance", "enterprise-ai", "accountability"]
+tags: [governance, enterprise-ai, accountability]
 draft: false
 series: "SOX for AI"
 description: "The risk is not a robot coup. It is quieter: institutions reorganizing themselves around what AI optimizes until the derived system drives the originators."
