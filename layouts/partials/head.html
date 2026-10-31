@@ -8,10 +8,10 @@
 {{ end }}
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<link rel="icon" href="{{ printf "%s?v=2" ("img/favicon.ico" | relURL) }}" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ printf "%s?v=2" ("img/favicon-32x32.png" | relURL) }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ printf "%s?v=2" ("img/favicon-16x16.png" | relURL) }}">
-<link rel="apple-touch-icon" href="{{ printf "%s?v=2" ("img/apple-touch-icon.png" | relURL) }}">
+<link rel="icon" href="{{ printf "%s?v=3" ("img/favicon.ico" | relURL) }}" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ printf "%s?v=3" ("img/favicon-32x32.png" | relURL) }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ printf "%s?v=3" ("img/favicon-16x16.png" | relURL) }}">
+<link rel="apple-touch-icon" href="{{ printf "%s?v=3" ("img/apple-touch-icon.png" | relURL) }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
