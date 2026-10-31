@@ -3,10 +3,6 @@
   <img src="{{ "img/hero-banner.png" | relURL }}" alt="Thinx-Tank: a robot agent commanding a tank, in amber on navy">
 </figure>
 
-<section class="intro">
-  <p class="tagline">{{ .Site.Params.tagline }}</p>
-</section>
-
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
 {{ $sorted := $posts.ByDate.Reverse }}
 {{ if $sorted }}
