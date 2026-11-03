@@ -1,3 +1,4 @@
+---
 title: "Govern the Door, Not the Agent You Do Not Own"
 date: 2026-11-03T07:22:00-06:00
 tags: [agents, identity, governance, credentials]
