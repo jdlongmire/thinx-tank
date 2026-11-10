@@ -12,6 +12,8 @@ Most organizations route model traffic by habit. One default model handles every
 
 Routing is not a technical setting tucked inside a prompt. It is an economic decision and a governance decision. The model a task runs on decides what the work costs, what quality comes back, and how much rework I buy afterward. If that decision matters, it belongs on the record.
 
+![Routing as Architecture: model routing as declared policy, measured per accepted outcome. Task classes (novel work, structured work, classification, sensitive work) enter the Route Table, declared and versioned policy in the fabric, which assigns six tiers (frontier models, mid-tier models, small fast models, open-weight hosted, open-weight owned, fallback routes). Beneath the tiers sits the route record: dated prices, outcome checks, and cost per accepted outcome, governed by declaration in advance, versioned changes, budgets per action, and an evidence reset on change. A task flows Classify, Route, Execute, Verify, Record.](/img/posts/route-by-outcome-not-by-token/figure.png)
+
 ## The unit is cost per accepted outcome
 
 Cost per token is the wrong unit. Cheap tokens that fail review are the most expensive tokens in the building. A route is economical only when its output passes verification without rework, and that makes the honest measure cost per accepted outcome: the full cost of the run, plus corrections, plus re-runs, divided by the work that actually cleared the bar.
