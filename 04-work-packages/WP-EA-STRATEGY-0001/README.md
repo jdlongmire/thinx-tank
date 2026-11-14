@@ -101,7 +101,7 @@ Compare relevant elements of TOGAF, MIT CISR, NIST/federal EA concepts, Gartner 
 - [ ] 3x3 explanatory graphic.
 - [ ] Example worked strategy using a non-proprietary enterprise scenario.
 - [ ] HCAE augmentation model for strategy development and maintenance.
-- [ ] **Publication deliverable: sourced Thinx-Tank blog post** presenting the validated method, evidence, limitations, and practical application.
+- [x] **Publication deliverable: sourced Thinx-Tank blog post** presenting the validated method, evidence, limitations, and practical application.
 - [ ] Publication-quality source notes with primary/authoritative links and claim-level traceability.
 - [ ] Final human review and acceptance.
 
