@@ -12,6 +12,8 @@ Genpact published its *Autonomy in Practice* report today, built on a survey of 
 
 Read together, those numbers describe an industry that got very good at the first half of the job. Deployment works. Accounting does not.
 
+![Production Is Not a Result, the paneled plate: nine panels and a closing band. Four survey dials (79, 20, 15, 49) read as a set; production as an engineering state; activity versus result; the target that was never written; the three parts of a real benefit claim; gains leaking at the handoff; the six fields of the one-page outcome entry across two panels; the review rule; and the bottom line: count the line, not the launch.](/img/posts/production-is-not-a-result/plate.jpg)
+
 ## Production is an engineering state
 
 An agent in production means specific things. It runs on real systems. It touches real data. It holds credentials, consumes budget, and produces output that other people and systems act on. Those are engineering facts, and they matter. I have spent months on this blog arguing that production agents need named identity, scoped permission, and a decommission path, because production is where the risk lives.
