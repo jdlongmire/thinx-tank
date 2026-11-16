@@ -1,10 +1,10 @@
 # Thinx-Tank weekly stats
 
 Format version: 1
-Week start: 2026-11-02
-Week end: 2026-11-08
+Week start: 2026-11-09
+Week end: 2026-11-15
 Timezone: America/Chicago
-Generated at: 2026-11-09T06:00:02-06:00
+Generated at: 2026-11-16T06:00:06-06:00
 Website: blog.thinxai.net
 
 Coverage: Recorded events only; tracking outages and blocked tracking may reduce counts.
@@ -13,41 +13,42 @@ Coverage: Recorded events only; tracking outages and blocked tracking may reduce
 
 | Metric | Count |
 | --- | ---: |
-| Pageviews | 39 |
-| Unique visitors | 28 |
-| Visits | 29 |
+| Pageviews | 76 |
+| Unique visitors | 41 |
+| Visits | 46 |
 
 ## Top 10 pages
 
 | Path | Views |
 | --- | ---: |
-| / | 10 |
-| /posts/agent-wore-a-contractors-login/ | 5 |
-| /posts/personal-agents-workers-and-the-fabric/ | 5 |
-| /posts/autonomy-is-earned-per-action/ | 3 |
-| /posts/the-mxm-fabric-defined/ | 3 |
-| /tags/governance/ | 2 |
-| /about/ | 1 |
-| /posts/autonomy-is-earned-per-action/#promote-the-action | 1 |
-| /posts/give-the-agent-a-role/ | 1 |
-| /posts/the-mxm-fabric-defined/#how-the-modes-are-implemented | 1 |
+| / | 16 |
+| /posts/route-by-outcome-not-by-token/ | 8 |
+| /posts/values-into-the-ai-ecosystem/ | 6 |
+| /posts/production-is-not-a-result/ | 5 |
+| /posts/ | 4 |
+| /posts/next-run-inherits-leftovers/ | 4 |
+| /page/3/ | 2 |
+| /posts/route-by-outcome-not-by-token/#open-weight-models-are-a-tier-not-a-slogan | 2 |
+| /posts/route-by-outcome-not-by-token/#route-by-task-class-declared-in-advance | 2 |
+| /posts/route-by-outcome-not-by-token/#the-unit-is-cost-per-accepted-outcome | 2 |
 
 ## Top 10 referrers
 
 | Referrer | Views |
 | --- | ---: |
-| linkedin.com | 8 |
+| linkedin.com | 5 |
+| statics.gov.teams.microsoft.us | 1 |
 
 ## Day-by-day pageviews
 
 | Date | Pageviews |
 | --- | ---: |
-| 2026-11-02 | 6 |
-| 2026-11-03 | 5 |
-| 2026-11-04 | 12 |
-| 2026-11-05 | 7 |
-| 2026-11-06 | 5 |
-| 2026-11-07 | 1 |
-| 2026-11-08 | 3 |
+| 2026-11-09 | 9 |
+| 2026-11-10 | 26 |
+| 2026-11-11 | 21 |
+| 2026-11-12 | 6 |
+| 2026-11-13 | 2 |
+| 2026-11-14 | 6 |
+| 2026-11-15 | 6 |
 
 Human-Curated, AI-Enabled (HCAE)
