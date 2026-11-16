@@ -16,7 +16,7 @@ Read together, those numbers describe an industry that got very good at the firs
 
 Here is the post as a narrated plate video:
 
-{{< youtube vkAVbuG3FRE >}}
+{{< youtube znwpjLLNh10 >}}
 
 ## Production is an engineering state
 
