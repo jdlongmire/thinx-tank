@@ -61,6 +61,10 @@ Alibaba unveiled Qwen4-Max in Hangzhou on November 16. It is a 2.4 trillion para
 
 Why it matters: scale announcements are easy to make and hard to verify. Until independent benchmarks close, the capability gap at the top remains where it was. The numbers are in [KimKJ's November 18 daily briefing](https://kimkj.com/en/daily-briefing-en/?mod=document&uid=22065).
 
+## An observation from my own work
+
+I have argued on this blog that a model is not a model: the offerings differ in kind, not just in score, and treating them as interchangeable parts is a category error ([A Model Is Not a Model](https://blog.thinxai.net/posts/a-model-is-not-a-model/)). Today's news cuts both ways on that argument. Copilot's Auto routing treats OpenAI and Anthropic models as swappable capacity, priced per task. The routing layer is real, and it is where the economics now sit. But a router that swaps models on price alone will learn the hard way that the swap is not free: behavior, failure modes, and evidence quality change with the model underneath. The durable enterprise asset is not the model, and it is not the router by itself. It is the governed control plane around both: policy on what may be routed where, and evidence that the outcome held after the swap. That is the layer worth building, and today it stopped being a diagram and became a shipping product category.
+
 ## What to watch
 
 Three things. First, whether Microsoft's cheaper in-house models take Copilot workloads from OpenAI and Anthropic in published numbers, or stay a negotiating prop. Second, whether the autonomous exploit automation GTIG described shows up in a named breach with a timeline attached. Third, the price war: Astra got 20 percent cheaper on launch day, and every cut reprices the agent workloads enterprises are now budgeting. Cost per accepted outcome is the metric that decides which of these models actually runs the work.
