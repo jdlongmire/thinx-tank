@@ -8,6 +8,8 @@ hero_alt: "Navy and amber hero graphic with bold text: AI News Briefing, Novembe
 draft: false
 ---
 
+{{< audio src="/audio/ai-audio-briefing-2026-11-21.mp3" >}}
+
 ## Executive summary
 
 - Anthropic mathematician Levent Alpoge announced a Riemann Hypothesis proof produced with Claude, with a compiling Lean formalization. Verification has just started, and Terry Tao flagged that the artifact is Lean only.
