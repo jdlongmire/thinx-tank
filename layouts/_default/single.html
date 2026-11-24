@@ -26,6 +26,10 @@
   <div class="content">
     {{ .Content }}
   </div>
+  {{ if eq .Section "posts" }}
+  {{ partial "subscribe-mid.html" . }}
+  {{ partial "subscribe-box.html" . }}
+  {{ end }}
 
   {{ with .Params.series }}
   {{ $seriesName := . }}
