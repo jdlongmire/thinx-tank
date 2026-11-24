@@ -2,10 +2,13 @@
   <div class="wrap">
     <div class="subscribe">
       <p class="subscribe-title">Thinx-Tank by email</p>
-      <p class="subscribe-text">New essays and the daily AI News Briefing, delivered to your inbox. Unsubscribe anytime.</p>
+      <p class="subscribe-text">The daily AI News Briefing with audio, or a Friday digest of the week. Pick one or both. Unsubscribe anytime.</p>
       <form method="post" action="https://lists.thinxai.net/subscription/form" class="subscribe-form">
         <input type="hidden" name="nonce" value="" />
-        <input type="hidden" name="l" value="b7d01ccf-764d-4c53-9655-f6e8232f22f2" />
+        <div class="subscribe-lists">
+          <label><input type="checkbox" name="l" value="427ae015-3fcc-46b9-bad9-89b9d3ce1fd7" /> Daily briefing, with audio</label>
+          <label><input type="checkbox" name="l" value="b7d01ccf-764d-4c53-9655-f6e8232f22f2" checked /> Weekly digest, on Fridays</label>
+        </div>
         <input type="email" name="email" required placeholder="Your email address" aria-label="Email address" />
         <button type="submit">Subscribe</button>
       </form>
