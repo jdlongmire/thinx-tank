@@ -1,5 +1,15 @@
 <footer class="site-footer">
   <div class="wrap">
+    <div class="subscribe">
+      <p class="subscribe-title">Thinx-Tank by email</p>
+      <p class="subscribe-text">New essays and the daily AI News Briefing, delivered to your inbox. Unsubscribe anytime.</p>
+      <form method="post" action="https://lists.thinxai.net/subscription/form" class="subscribe-form">
+        <input type="hidden" name="nonce" value="" />
+        <input type="hidden" name="l" value="b7d01ccf-764d-4c53-9655-f6e8232f22f2" />
+        <input type="email" name="email" required placeholder="Your email address" aria-label="Email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
     <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }} &middot; {{ .Site.Title }}</p>
   </div>
 </footer>
