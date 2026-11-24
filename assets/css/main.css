@@ -333,3 +333,7 @@ blockquote {
   background: var(--accent); color: #fff; cursor: pointer;
 }
 .subscribe-form button:hover { background: var(--amber); border-color: var(--amber); color: var(--ink); }
+
+.subscribe-lists { display: flex; flex-direction: column; gap: 0.3rem; margin: 0.5rem 0; font-size: 0.9em; }
+.subscribe-lists label { display: flex; align-items: center; gap: 0.45rem; cursor: pointer; }
+.subscribe-lists input[type="checkbox"] { accent-color: #e9a13b; width: 1rem; height: 1rem; }
