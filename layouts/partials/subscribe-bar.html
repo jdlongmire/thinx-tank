@@ -1,0 +1,50 @@
+{{ if ne .RelPermalink "/subscribe/" }}
+<div class="subscribe-bar" id="subscribe-bar" hidden>
+  <form method="post" action="https://lists.thinxai.net/subscription/form" class="subscribe-bar-form">
+    <input type="hidden" name="nonce" value="" />
+    <span class="subscribe-bar-text">Thinx-Tank by email</span>
+    <input type="email" name="email" required placeholder="Your email address" aria-label="Email address" />
+    <label><input type="checkbox" name="l" value="427ae015-3fcc-46b9-bad9-89b9d3ce1fd7" /> Daily</label>
+    <label><input type="checkbox" name="l" value="b7d01ccf-764d-4c53-9655-f6e8232f22f2" checked /> Weekly</label>
+    <button type="submit">Subscribe</button>
+  </form>
+  <button type="button" class="subscribe-bar-close" aria-label="Dismiss">&times;</button>
+</div>
+<script>
+(function () {
+  var mid = document.querySelector('.subscribe-mid');
+  if (mid) {
+    var content = document.querySelector('article.post .content');
+    if (content) {
+      var heads = content.querySelectorAll('h2');
+      var paras = content.querySelectorAll('p');
+      var target = null;
+      if (heads.length >= 3) { target = heads[2]; }
+      else if (paras.length >= 8) { target = paras[5]; }
+      if (target) { content.insertBefore(mid, target); mid.hidden = false; }
+    }
+  }
+  var bar = document.getElementById('subscribe-bar');
+  if (!bar) { return; }
+  var KEY = 'tt-sub-bar-dismissed';
+  try {
+    var when = parseInt(localStorage.getItem(KEY) || '0', 10);
+    if (when && (Date.now() - when) < 30 * 24 * 60 * 60 * 1000) { return; }
+  } catch (e) {}
+  var shown = false;
+  function onScroll() {
+    if (shown) { return; }
+    var y = window.scrollY || document.documentElement.scrollTop;
+    if (y > 500) { shown = true; bar.hidden = false; window.removeEventListener('scroll', onScroll); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  var close = bar.querySelector('.subscribe-bar-close');
+  if (close) {
+    close.addEventListener('click', function () {
+      bar.hidden = true;
+      try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {}
+    });
+  }
+})();
+</script>
+{{ end }}
