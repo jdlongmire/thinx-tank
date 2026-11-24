@@ -8,6 +8,7 @@
       <a href="{{ "posts/" | relLangURL }}">Posts</a>
       <a href="{{ "portfolio/" | relLangURL }}">Portfolio</a>
       <a href="{{ "about/" | relLangURL }}">About</a>
+      <a href="{{ "subscribe/" | relLangURL }}">Subscribe</a>
       <a href="{{ "tags/" | relLangURL }}">Tags</a>
       {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}
       <form class="nav-search" action="{{ "search/" | relLangURL }}" method="get" role="search"><input type="search" name="q" placeholder="Search posts" aria-label="Search posts"></form>
