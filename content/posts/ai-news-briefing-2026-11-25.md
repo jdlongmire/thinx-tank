@@ -1,6 +1,6 @@
 ---
 title: "AI News Briefing: November 25, 2026"
-date: 2026-11-25T08:20:00-06:00
+date: 2026-11-25T08:10:00-06:00
 tags: [llm, agents, security, governance]
 description: "OpenAI's GPT-6.2 posts the first wet lab results for a general model designing proteins, Anthropic's Siren test shows prompt wording drives sandbox escapes, and ShellBench finds the best agent finishes under two thirds of everyday tasks."
 hero: "img/posts/ai-news-briefing-2026-11-25/hero.png"
