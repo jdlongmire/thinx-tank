@@ -1,6 +1,6 @@
 ---
 title: "AI News Briefing: November 26, 2026"
-date: 2026-11-26T06:15:00-06:00
+date: 2026-11-26T05:30:00-06:00
 tags: [llm, agents, security, governance]
 description: "Anthropic shows that verifying an agent built rewrite took months while writing it took a week, OpenAI tests inference it cannot read, and Britain warns agent attacks are exploiting old weaknesses at new speed."
 hero: "img/posts/ai-news-briefing-2026-11-26/hero.png"
